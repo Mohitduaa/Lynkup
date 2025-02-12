@@ -14,7 +14,7 @@ const Cards = () => {
         </div>
         <div className="w-full lg:w-1/2">
           <h1 className="font-poppins text-lg lg:text-xl font-bold">Experiences</h1>
-          <p className="text-sm lg:text-lg font-Lexend">
+          <p className="text-sm lg:text-lg font-Lexend  font-extralight mb-2">
             New experiences and offers drop each week for you to share with your
             audience
           </p>
@@ -32,7 +32,7 @@ const Cards = () => {
         </div>
         <div className="w-full lg:w-1/2">
           <h1 className="font-poppins text-lg lg:text-xl font-bold">Experiences</h1>
-          <p className="text-sm lg:text-lg font-Lexend">
+          <p className="text-sm lg:text-lg font-Lexend  font-extralight mb-2">
             Simplifies finding and booking collaborations so you can focus on
             creating content
           </p>
@@ -50,7 +50,7 @@ const Cards = () => {
         </div>
         <div className="w-full lg:w-1/2">
           <h1 className="font-poppins text-lg lg:text-xl font-bold">Experiences</h1>
-          <p className="text-sm lg:text-lg font-Lexend">
+          <p className="text-sm lg:text-lg font-Lexend  font-extralight mb-2">
             Get collaborations based on engagement, not just follower count
           </p>
         </div>
@@ -67,7 +67,7 @@ const Cards = () => {
         </div>
         <div className="w-full lg:w-1/2">
           <h1 className="font-poppins text-lg lg:text-xl font-bold">Experiences</h1>
-          <p className="text-sm lg:text-lg font-Lexend">
+          <p className="text-sm lg:text-lg font-Lexend  font-extralight mb-2">
             Join our community of creators. Share ideas, tips, and attend
             meetups, events & workshops
           </p>

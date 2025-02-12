@@ -27,7 +27,7 @@ const Commitments = () => {
 
       <div className="text-center lg:text-left">
         <h1 className="text-3xl font-poppins font-bold mb-4">Commitments</h1>
-        <p className="w-full lg:w-[500px] font-Lexend mb-4">
+        <p className="w-full lg:w-[500px] font-Lexend mb-4  font-extralight ">
           We are committed to working with you collaboratively to understand your goals and create a strategy that will achieve them.
         </p>
         <p className="font-Lexend text-green-400">{`Learn More ->`}</p>

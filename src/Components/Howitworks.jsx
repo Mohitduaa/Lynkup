@@ -52,7 +52,7 @@ const Howitworks = () => {
 
             <h3 className="text-xl font-bold">{step.title}</h3>
 
-            <p className="text-gray-700 text-sm">{step.description}</p>
+            <p className="text-gray-700 text-sm font-Lexend font-extralight mb-2">{step.description}</p>
 
             <div className="absolute -top-3 right-3 bg-red-500 text-white font-bold text-sm w-10 h-10 flex items-center justify-center rounded-full">
               {step.id}

@@ -1,45 +1,40 @@
-import React from "react";
+import React from 'react';
+import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-6">
-      <div className="container mx-auto px-6">
-        {/* Contact Us Section */}
-        <h2 className="text-lg lg:text-xl font-bold mb-4">Contact Us</h2>
-        <ul className="space-y-2">
-          <li>
-            <strong>Social Media:</strong>{" "}
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-400 hover:underline"
-            >
-              Link
-            </a>
-          </li>
-          <li>
-            <strong>Email:</strong>{" "}
-            <a
-              href="mailto:example@example.com"
-              className="text-blue-400 hover:underline"
-            >
-              example@example.com
-            </a>
-          </li>
-          <li>
-            <strong>Phone:</strong>{" "}
-            <a href="tel:+1234567890" className="text-blue-400 hover:underline"
->
-              +123 456 7890
-            </a>
-          </li>
-        </ul>
+    <footer className="bg-gray-800 text-white p-4 md:p-6">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
+        <div className="text-center md:text-left mb-4 md:mb-0">
+          <p className="text-sm font-poppins">Phone: +91 1234567890</p>
+          <p className="text-sm font-poppins">Email: example@email.com</p>
+        </div>
 
-        <hr className="my-4 border-gray-700" />
-
-        <div className="text-center text-sm">
-          © {new Date().getFullYear()} Your Company. All rights reserved.
+        <div className="flex space-x-4">
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-400"
+          >
+            <FaInstagram size={24} />
+          </a>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-400"
+          >
+            <FaFacebook size={24} />
+          </a>
+          <a
+            href="https://www.youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-400"
+          >
+            <FaYoutube size={24} />
+          </a>
         </div>
       </div>
     </footer>

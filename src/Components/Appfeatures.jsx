@@ -44,7 +44,7 @@ const Appfeatures = () => {
             },
           ].map((feature, index) => (
             <div key={index} className="flex gap-4 items-center">
-              <div className="text-white bg-blue-700 p-2 rounded-lg">
+              <div className="text-white bg-[#FFEEDD]  p-2 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="40px"
@@ -59,7 +59,7 @@ const Appfeatures = () => {
                 <h1 className="text-base md:text-xl font-poppins font-bold">
                   {feature.title}
                 </h1>
-                <p className="text-sm md:text-[15px] text-gray-500">
+                <p className="text-sm md:text-[15px] text-gray-500 font-Lexend font-extralight mb-2">
                   {feature.description}
                 </p>
               </div>
