@@ -9,9 +9,10 @@ const Navbaar = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center px-6 lg:px-20 py-4 bg-white ">
+      <div className="flex justify-between items-center px-6 lg:px-20 py-4 bg-white   ">
         <div>
-          <h1 className="font-bold font-poppins text-xl">PINGFLUENCE</h1>
+          {/* <h1 className="font-bold font-poppins text-xl">PINGFLUENCE</h1> */}
+          <img className="w-full h-[50px]" src="images/icon.png" alt="" />
         </div>
 
         <div className="hidden lg:block">

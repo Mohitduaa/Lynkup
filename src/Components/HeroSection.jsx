@@ -3,7 +3,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center gap-10 pl-6 lg:pl-20 py-10">
+    <div className="flex flex-col lg:flex-row justify-center items-center gap-10 pl-6 lg:pl-20 py-10 ">
       <div className="text-center lg:text-left max-w-lg">
         <h1 className="text-xl lg:text-3xl font-bold font-poppins mb-4">Get Eat, Share, Grow</h1>
         <p className="font-Lexend font-extralight mb-2">
