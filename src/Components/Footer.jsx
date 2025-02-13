@@ -3,7 +3,7 @@ import { FaEnvelope, FaFacebook, FaInstagram,  FaPhoneAlt,  FaYoutube } from 're
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white p-4 md:p-6">
+    <footer className="bg-[#1E4898] text-white p-4 md:p-6">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="text-center md:text-left mb-4 md:mb-0">
         <div className='flex gap-5'>

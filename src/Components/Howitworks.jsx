@@ -6,7 +6,7 @@ const steps = [
       description:
         "Hey there! We're thrilled to have you on our app. On Invyed, we connect amazing content creators with exciting opportunities from restaurants, music venues, movie premieres, and more – all for free!",
       icon: "👋",
-      size: "row-span-2"
+      size: "row-span-3"
     },
     {
       id: "02",
@@ -14,7 +14,7 @@ const steps = [
       description:
         "Take beautiful content like we know you can! Showcase the venue and your experience as best as possible. If you can’t make it, please cancel through the app. If you don’t cancel over 3 times, you will be banned from future opportunities.",
       icon: "🎁",
-      size: "row-span-"
+      size: "row-span-1"
 
     },
     {
@@ -23,7 +23,7 @@ const steps = [
       description:
         "Post your content within 48 hours (minimum of 2x IG stories or 1x TikTok). Remember to mention the relevant accounts and hashtags.",
       icon: "📸",
-      size: "row-span-1"
+      size: "row-span-3"
     },
     {
       id: "04",
@@ -31,13 +31,13 @@ const steps = [
       description:
         "If you add @invyed.app Ambassador in your IG/TT Bio, this will increase your chances of being accepted into ‘request’ events/offers!",
       icon: "⭐",
-      size: "row-span-2"
+      size: "row-span-1"
     },
   ];
 const Howitworks = () => {
   return (
     <div>
-        <div className="bg-[#FFEEDD] py-10 px-6 md:px-20">
+        <div className="bg-[#1E4898] py-10 px-6 md:px-20">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 font-poppins">
         How it works
       </h2>
@@ -46,7 +46,7 @@ const Howitworks = () => {
         {steps.map((step, index) => (
           <div
             key={index}
-            className="relative bg-white p-6 rounded-xl shadow-lg flex flex-col gap-2"
+            className={`relative bg-white p-6 rounded-xl shadow-lg flex flex-col gap-2 ${step.size}`}
           >
             <span className="text-4xl">{step.icon}</span>
 

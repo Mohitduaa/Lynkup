@@ -2,13 +2,13 @@ import React from "react";
 
 const AppPromotion = () => {
   return (
-    <div className="bg-[#FFEEDD] py-12 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-between">
+    <div className="bg-[#1E4898] py-12 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-between">
       <div className="text-center lg:text-left max-w-lg lg:pr-10">
-        <h1 className="text-3xl lg:text-5xl font-bold text-gray-800 mb-4 leading-tight">
+        <h1 className="text-3xl lg:text-5xl  text-white font-poppins mb-4 leading-tight">
           Book and manage <br /> brand collaborations{" "}
           <span className="text-pink-500">with one simple app</span>
         </h1>
-        <p className="text-gray-600 mb-6 text-base lg:text-lg">
+        <p className="text-white font-Lexend font-extralight mb-6 text-base lg:text-lg">
           100% free for creators. Empower yourself with the best tools to manage
           brand deals seamlessly.
         </p>
@@ -19,8 +19,7 @@ const AppPromotion = () => {
             className="bg-black text-white flex items-center py-3 px-5 rounded-lg hover:bg-gray-800 transition"
           >
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Apple_logo_black.svg"
-              alt="App Store"
+              src="images/app-store.png"              alt="App Store"
               className="h-6 mr-3"
             />
             <div>
