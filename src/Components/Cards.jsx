@@ -4,7 +4,7 @@ const Cards = () => {
   return (
     <div className="px-6 lg:px-20 py-10 space-y-10">
       {/* Card 1 */}
-      <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
+      <div className="flex flex-col lg:flex-row justify-between items-center px-20 gap-6">
         <div className="w-full lg:w-1/2">
           <img
             src="images/card1.png"
