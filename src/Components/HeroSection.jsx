@@ -15,6 +15,7 @@ const HeroSection = () => {
         <p className="font-Lexend font-extralight">
           🔹 <span className='font-poppins font-bold'>Our Vision:</span> To be the go-to platform for barter collaborations between content creators and hospitality brands.
         </p>
+        
       </div>
 
       <div className="">

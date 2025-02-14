@@ -4,12 +4,12 @@ const Cards = () => {
   return (
     <div className="px-6 lg:px-20 py-10 space-y-10">
       {/* Card 1 */}
-      <div className="flex flex-col lg:flex-row justify-between items-start gap-6">
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
         <div className="w-full lg:w-1/2">
           <img
             src="images/card1.png"
             alt="Card 1"
-            className="w-full object-cover"
+            className="w-full lg:w-[80%] object-cover"
           />
         </div>
         <div className="w-full lg:w-1/2">
@@ -22,12 +22,12 @@ const Cards = () => {
       </div>
 
       {/* Card 2 */}
-      <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-start gap-6">
+      <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center gap-6">
         <div className="w-full lg:w-1/2">
           <img
             src="images/card1.png"
             alt="Card 2"
-            className="w-full object-cover"
+            className="w-full lg:w-[80%] object-cover"
           />
         </div>
         <div className="w-full lg:w-1/2">
@@ -40,12 +40,12 @@ const Cards = () => {
       </div>
 
       {/* Card 3 */}
-      <div className="flex flex-col lg:flex-row justify-between items-start gap-6">
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
         <div className="w-full lg:w-1/2">
           <img
             src="images/card1.png"
             alt="Card 3"
-            className="w-full object-cover"
+            className="w-full lg:w-[80%] object-cover"
           />
         </div>
         <div className="w-full lg:w-1/2">
@@ -57,12 +57,12 @@ const Cards = () => {
       </div>
 
       {/* Card 4 */}
-      <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-start gap-6">
+      <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center gap-6">
         <div className="w-full lg:w-1/2">
           <img
             src="images/card1.png"
             alt="Card 4"
-            className="w-full object-cover"
+            className="w-full lg:w-[80%] object-cover"
           />
         </div>
         <div className="w-full lg:w-1/2">

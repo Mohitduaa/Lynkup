@@ -3,22 +3,22 @@ import React from 'react';
 const Appfeatures = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-between px-5 md:px-20 py-10 gap-10">
+      <div className="flex flex-col md:flex-row justify-between items-center px-5 md:px-20  py-10 ">
         <div className="flex flex-col items-start">
           <h1 className="text-2xl md:text-3xl font-poppins font-bold mb-4">
-          App Features:
+          Our Features:
           </h1>
-          <p className="text-base md:text-xl font-Lexend font-extralight mb-6 md:mb-10 max-w-full md:w-[500px]">
+          <p className="text-base md:text-xl font-Lexend font-extralight mb-6 md:mb-10 max-w-full md:w-[600px]">
             We believe that the best way to create successful marketing campaigns is to work closely with our clients to understand their goals and challenges.
           </p>
           <img
             src="/images/card1.png"
             alt="Card"
-            className="w-full max-w-md object-contain"
+            className="w-full max-w-lg object-contain"
           />
         </div>
 
-        <div className="flex flex-col gap-6 md:gap-8">
+        <div className="flex flex-col gap-6 md:gap-10">
           {[
             {
               title: "Automated Booking System",
@@ -43,8 +43,8 @@ const Appfeatures = () => {
                 "Get connected with the best-fit creators for your brand.",
             },
           ].map((feature, index) => (
-            <div key={index} className="flex gap-4 items-center">
-              <div className="text-white bg-[#1E4898]  p-2 rounded-lg">
+            <div key={index} className="flex gap-3 items-center">
+              <div className="text-[#FDFDFD] bg-[#653FCC]  p-2 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="40px"
@@ -59,7 +59,7 @@ const Appfeatures = () => {
                 <h1 className="text-base md:text-xl font-poppins font-bold">
                   {feature.title}
                 </h1>
-                <p className="text-sm md:text-[15px] text-gray-500 font-Lexend font-extralight mb-2">
+                <p className="text-sm md:text-[15px]  font-Lexend font-extralight mb-2">
                   {feature.description}
                 </p>
               </div>

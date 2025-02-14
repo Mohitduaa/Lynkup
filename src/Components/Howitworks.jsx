@@ -37,7 +37,7 @@ const steps = [
 const Howitworks = () => {
   return (
     <div>
-        <div className="bg-[#1E4898] py-10 px-6 md:px-20">
+        <div className=" py-10 px-6 md:px-20">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 font-poppins">
         How it works
       </h2>
@@ -46,15 +46,15 @@ const Howitworks = () => {
         {steps.map((step, index) => (
           <div
             key={index}
-            className={`relative bg-white p-6 rounded-xl shadow-lg flex flex-col gap-2 ${step.size}`}
+            className={`relative bg-[#272530] p-6 rounded-xl shadow-lg flex flex-col gap-2 ${step.size}`}
           >
             <span className="text-4xl">{step.icon}</span>
 
             <h3 className="text-xl font-bold">{step.title}</h3>
 
-            <p className="text-gray-700 text-sm font-Lexend font-extralight mb-2">{step.description}</p>
+            <p className=" text-sm font-Lexend font-extralight mb-2">{step.description}</p>
 
-            <div className="absolute -top-3 right-3 bg-red-500 text-white font-bold text-sm w-10 h-10 flex items-center justify-center rounded-full">
+            <div className="absolute -top-3 right-3 bg-[#653FCC] text-white font-bold text-sm w-10 h-10 flex items-center justify-center rounded-full">
               {step.id}
             </div>
           </div>

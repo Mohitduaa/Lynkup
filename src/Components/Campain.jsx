@@ -2,7 +2,7 @@ import React from "react";
 
 const Campaign = () => {
   return (
-    <div className=" bg-[#1E4898] py-12 bg- text-center px-20">
+    <div className="  py-14  text-center px-20 ">
       <h1 className="text-3xl lg:text-4xl font-poppins font-bold mb-4">
         Planning a  campaign?
       </h1>
@@ -37,7 +37,7 @@ const Campaign = () => {
         </div>
       </div>
 
-      <button className="bg-white text-pink-500 hover:bg-gray-100 font-medium py-3 px-6 rounded-full shadow-lg transition">
+      <button className="bg-white text-[#653FCC] font-Lexend font-extralight hover:bg-gray-100 font-medium py-3 px-6 rounded-full shadow-lg transition">
         Book your kick-off call →
       </button>
 

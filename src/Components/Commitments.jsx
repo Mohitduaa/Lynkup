@@ -30,7 +30,7 @@ const Commitments = () => {
         <p className="w-full lg:w-[500px] font-Lexend mb-4  font-extralight ">
           We are committed to working with you collaboratively to understand your goals and create a strategy that will achieve them.
         </p>
-        <p className="font-Lexend text-green-400">{`Learn More ->`}</p>
+        <p className="font-Lexend text-[#653FCC]">{`Learn More ->`}</p>
       </div>
     </div>
   );
