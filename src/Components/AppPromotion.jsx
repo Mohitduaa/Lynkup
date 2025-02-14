@@ -2,7 +2,7 @@ import React from "react";
 
 const AppPromotion = () => {
   return (
-    <div className=" py-14 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-between ">
+    <div className=" py-20 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-between   ">
       <div className="text-center lg:text-left max-w-lg lg:pr-10">
         <h1 className="text-3xl lg:text-5xl  text-white font-poppins mb-4 leading-tight">
           Book and manage <br /> brand collaborations{" "}

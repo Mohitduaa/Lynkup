@@ -2,8 +2,8 @@ import React from 'react';
 
 const CardSecond = () => {
   return (
-    <>
-      <div className="py-8">
+    <div className='bg-[#272530]'>
+      <div className="py-8 ">
         <h1 className="text-center text-xl font-poppins font-bold">
           Why work with influencers?
         </h1>
@@ -35,7 +35,7 @@ const CardSecond = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

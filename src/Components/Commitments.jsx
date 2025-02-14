@@ -2,8 +2,8 @@ import React from 'react';
 
 const Commitments = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between px-6 lg:px-20 py-10 gap-8">
-      <div className="flex flex-col gap-4">
+    <div className="flex flex-col lg:flex-row justify-between px-6 lg:px-20 py-16 gap-8 bg-[#272530] ">
+      <div className="flex flex-col  gap-4">
         <div className="mb-4">
           <h1 className="text-5xl font-bold font-poppins mb-1">245%</h1>
           <p className="font-Lexend text-sm lg:text-[12px] text-gray-600">More revenue for the brand</p>

@@ -23,7 +23,7 @@ function App() {
       <AppPromotion/>
       <CardSecond/>
       <Campain/>
-      <FAQS/>
+      {/* <FAQS/> */}
       <Footer/>
     </div>
   );

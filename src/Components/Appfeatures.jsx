@@ -2,9 +2,9 @@ import React from 'react';
 
 const Appfeatures = () => {
   return (
-    <>
-      <div className="flex flex-col md:flex-row justify-between items-center px-5 md:px-20  py-10 ">
-        <div className="flex flex-col items-start">
+    <div className='bg-[#272530] py-10'>
+      <div className="flex flex-col md:flex-row justify-between items-center px-10 md:mx-40  py-10 my-10 shadow-xl  rounded-md  bg-[#100E19]" style={{ boxShadow: '0px 5px 25px rgba(109, 71, 208, 0.9)' }}>
+        <div className="flex flex-col items-start px-5">
           <h1 className="text-2xl md:text-3xl font-poppins font-bold mb-4">
           Our Features:
           </h1>
@@ -67,7 +67,7 @@ const Appfeatures = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -116,12 +116,12 @@ const Navbaar = () => {
           backgroundSize: "cover",backgroundBlendMode:"screen"
         }}
       >
-        <div className="flex justify-start items-center py-[240px] ">
+        <div className="flex justify-start items-center py-[280px] ">
           <div className=" lg:text-left  px-20">
             <h1 className="text-xl lg:text-6xl font-bold font-poppins mb-4 ">
               Eat, Share, Grow
             </h1>
-            <p className="font-Lexend text-2xl font-extralight mb-2 w-[640px]">
+            <p className="font-Lexend text-xl font-extralight mb-2 w-[640px]">
               LynkUp bridges the gap between restaurants looking for authentic
               promotion and creators who want to experience and share the best
               food in town.
