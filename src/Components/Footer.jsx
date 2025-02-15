@@ -5,9 +5,9 @@ const Footer = () => {
     <footer className="bg-[##100E19] text-white px-6 py-8 md:px-12 md:py-12 bg-[#272530] ">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
         <div>
-          <h1 className="font-bold text-2xl">invyted</h1>
+          <h1 className="font-bold text-2xl">Lynkup</h1>
           <p className="text-sm mt-4">
-            Invyted is registered in England and Wales under company number
+            Lynkup is registered in England and Wales under company number
             13889273.
           </p>
         </div>

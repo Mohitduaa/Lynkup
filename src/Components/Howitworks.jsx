@@ -6,7 +6,7 @@ const steps = [
       description:
         "Hey there! We're thrilled to have you on our app. On Invyed, we connect amazing content creators with exciting opportunities from restaurants, music venues, movie premieres, and more – all for free!",
       icon: "👋",
-      size: "row-span-3"
+      size: "row-span-1"
     },
     {
       id: "02",
@@ -14,7 +14,7 @@ const steps = [
       description:
         "Take beautiful content like we know you can! Showcase the venue and your experience as best as possible. If you can’t make it, please cancel through the app. If you don’t cancel over 3 times, you will be banned from future opportunities.",
       icon: "🎁",
-      size: "row-span-1"
+      size: "row-span-3"
 
     },
     {
@@ -37,7 +37,7 @@ const steps = [
 const Howitworks = () => {
   return (
     <div>
-        <div className=" py-10 px-6 md:px-20">
+        <div className=" py-10 px-6 md:px-60">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 font-poppins">
         How it works
       </h2>

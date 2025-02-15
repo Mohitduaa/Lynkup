@@ -21,13 +21,13 @@ const Navbaar = () => {
     <>
       <div
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-          isScrolled ? "bg-[#653FCC] shadow-md" : "bg-transparent"
+          isScrolled ? "bg-white shadow-md" : "bg-transparent"
         }`}
       >
         <div className="flex justify-between items-center px-4 md:px-6 lg:px-20 py-2">
           {/* Logo Section */}
           <div>
-          <img className="w-full h-[50px] " src="images/icon.png" alt="Logo" />          </div>
+          <img className="w-full h-[50px] " src="images/icon1.png" alt="Logo" />          </div>
 
           {/* Desktop Menu */}
           <div className="hidden lg:block">
@@ -84,7 +84,7 @@ const Navbaar = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden bg-[#100E19] shadow-md">
+          <div className="lg:hidden bg-white text-black shadow-md">
             <ul className="flex flex-col gap-3 px-4 py-4">
               {[
                 "Book a Demo",
@@ -110,13 +110,13 @@ const Navbaar = () => {
       <div
         className="h-[600px] md:h-[700px] lg:h-[800px] w-full"
         style={{
-          backgroundImage: `url('images/hero.png')`,
+          backgroundImage: `url('images/pin.jpg')`,
           backgroundSize: "cover",
           backgroundBlendMode: "screen",
         }}
       >
         <div className="flex justify-center md:justify-start items-center h-full px-4 md:px-12 lg:px-20">
-          <div className="text-center md:text-left">
+          <div className="text-center text-black md:text-left">
             <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold font-poppins mb-4">
               Eat, Share, Grow
             </h1>
@@ -126,12 +126,12 @@ const Navbaar = () => {
               food in town.
             </p>
             <p className="font-Lexend font-extralight mb-2 max-w-[90%] md:max-w-[660px] text-[14px] md:text-xl">
-              🔹 <span className="font-poppins font-bold text-lg md:text-2xl">Our Mission:</span> To
+              <span className="font-poppins font-bold text-lg md:text-2xl">Our Mission:</span> To
               empower creators with opportunities and help restaurants leverage
               influencer marketing with minimal effort.
             </p>
             <p className="font-Lexend font-extralight max-w-[90%] md:max-w-[660px] text-[14px] md:text-xl">
-              🔹 <span className="font-poppins font-bold text-lg md:text-2xl">Our Vision:</span> To be
+              <span className="font-poppins font-bold text-lg md:text-2xl">Our Vision:</span> To be
               the go-to platform for barter collaborations between content
               creators and hospitality brands.
             </p>
