@@ -20,11 +20,11 @@ const Navbaar = () => {
   return (
     <>
       <div
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300  ${
           isScrolled ? "bg-white shadow-md" : "bg-transparent"
         }`}
       >
-        <div className="flex justify-between items-center px-4 md:px-6 lg:px-20 py-2">
+        <div className="flex justify-between items-center px-4 md:px-6 lg:px-20 py-2 bg-white">
           {/* Logo Section */}
           <div>
           <img className="w-full h-[50px] " src="images/icon1.png" alt="Logo" />          </div>
