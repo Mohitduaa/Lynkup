@@ -48,7 +48,7 @@ const Howitworks = () => {
             key={index}
             className={`relative bg-[#272530] p-6 rounded-xl shadow-lg flex flex-col gap-2 ${step.size}`}
           >
-            <span className="text-4xl">{step.icon}</span>
+            <span className="text-6xl">{step.icon}</span>
 
             <h3 className="text-xl font-bold">{step.title}</h3>
 
