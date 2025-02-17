@@ -22,7 +22,7 @@ const HeroSection = () => {
             <span className="font-poppins font-bold text-lg md:text-2xl">
               Our Mission:
             </span>{" "}
-            To empower creators with opportunities and help restaurants leverage
+            To empower creators with opportunities and help businesses leverage
             influencer marketing with minimal effort.
           </p>
           <p className="font-Lexend font-extralight max-w-[90%] md:max-w-[660px] text-[14px] md:text-xl">
