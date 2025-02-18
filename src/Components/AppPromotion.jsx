@@ -4,7 +4,7 @@ const AppPromotion = () => {
   return (
     <div className=" py-20 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-between   ">
       <div className="text-center lg:text-left max-w-lg lg:pr-10">
-        <h1 className="text-3xl lg:text-5xl  text-white font-poppins mb-4 leading-tight">
+        <h1 className="text-3xl lg:text-5xl  text-white font-poppins font-medium mb-4 ">
           Book and manage <br /> brand collaborations{" "}
           <span className="text-[#653FCC]">with one simple app</span>
         </h1>
@@ -14,50 +14,43 @@ const AppPromotion = () => {
         </p>
 
         <div className="flex justify-center lg:justify-start gap-4">
-          <div
-            href="#"
-            className="bg-black text-white flex items-center py-3 px-5 rounded-lg hover:bg-gray-800 transition"
-          >
-            <img
-              src="images/app-store.png"              alt="App Store"
-              className="h-6 mr-3"
-            />
-            <div>
-              <p className="text-xs">Download on the</p>
-              <p className="text-sm font-semibold">App Store</p>
-            </div>
+          <div href="#" className="bg-[#272530] text-white flex items-center py-3 px-2 rounded-lg hover:bg-gray-800 transition">
+            <img src="images/Appstore IOS.png" alt="App Store" className="h-10 "/>
           </div>
-          <div
-            href="#"
-            className="bg-black text-white flex items-center py-3 px-5 rounded-lg hover:bg-gray-800 transition"
-          >
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-              alt="Google Play"
-              className="h-6 mr-3"
-            />
-            <div>
-              <p className="text-xs">Get it on</p>
-              <p className="text-sm font-semibold">Google Play</p>
-            </div>
+          <div  href="#" className="bg-[#272530] text-white flex items-center py-3 px-2 rounded-lg hover:bg-gray-800 transition">
+            <img src="images/playstore.png" alt="Google Play" className="h-10 w-full"/>
+          </div>
+        </div>
+        <div className="flex gap-8 py-2">
+          <div className="flex">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold" className="h-6 w-6"> <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold" className="h-6 w-6"> <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold" className="h-6 w-6"> <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold" className="h-6 w-6"> <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold" className="h-6 w-6"> <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
+          <h1>4.8</h1>
+          </div>
+          <div className="flex">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold" className="h-6 w-6"> <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold" className="h-6 w-6"> <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold" className="h-6 w-6"> <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold" className="h-6 w-6"> <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold" className="h-6 w-6"> <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
+          <h1>4.9</h1>
           </div>
         </div>
       </div>
 
-      <div className="mt-10 lg:mt-0 relative flex justify-center">
-        <div className="w-60 h-auto rounded-lg shadow-lg overflow-hidden bg-white">
+      <div className=" flex justify-center items-center">
+        
+        <div className="  ">
           <img
-            src="images/card1.png"
-            alt="App Mockup 1"
-            className="w-full"
-          />
-        </div>
-        <div className="w-55 h-auto rounded-lg shadow-lg overflow-hidden bg-white -ml-16 mt-10">
-          <img
-            src="images/card1.png"
+            src="images/mobile.png"
             alt="App Mockup 2"
-            className="w-full"
+            className="w-full h-[600px]"
           />
+          <img className=" -rotate-[10deg] -ml-2 mb-2" src="images/right (2).png" alt="" />
+        <h1 className="absolute -ml-12 text-white font-poppins font-medium">100%free creators</h1>
         </div>
       </div>
     </div>
