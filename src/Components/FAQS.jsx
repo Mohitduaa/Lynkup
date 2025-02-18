@@ -1,6 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const FAQS = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   const faqs = [
     {
       question: "Is LynkUp free to use?",
@@ -41,7 +48,9 @@ const FAQS = () => {
         Frequently Asked Questions
       </h1>
       <div className="divide-y divide-gray-200">
-      <h1 className="text-2xl lg:text-3xl font-bold font-poppins mb-8 ">Influencers</h1>
+        <h1 className="text-2xl lg:text-3xl font-bold font-poppins mb-8">
+          Influencers
+        </h1>
         {faqs.map((faq, index) => (
           <div key={index} className="py-4">
             <div
@@ -68,7 +77,9 @@ const FAQS = () => {
         ))}
       </div>
       <div className="divide-y divide-gray-200">
-      <h1 className="text-2xl lg:text-3xl font-bold font-poppins mb-8 py-5">Brands</h1>
+        <h1 className="text-2xl lg:text-3xl font-bold font-poppins mb-8 py-5">
+          Brands
+        </h1>
         {faqs.map((faq, index) => (
           <div key={index} className="py-4">
             <div

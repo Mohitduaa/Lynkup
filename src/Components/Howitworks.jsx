@@ -4,7 +4,7 @@ const steps = [
       id: "01",
       title: "Welcome",
       description:
-        "Hey there! We're thrilled to have you on our app. On Invyed, we connect amazing content creators with exciting opportunities from restaurants, music venues, movie premieres, and more – all for free!",
+        "Hey there! We're thrilled to have you on our app. On Invyed, we connect amazing content creators with exciting opportunities from businesses, music venues, movie premieres, and more – all for free!",
       icon: "👋",
       size: "row-span-1"
     },

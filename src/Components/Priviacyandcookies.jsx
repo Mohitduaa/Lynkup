@@ -1,8 +1,13 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 const Priviacyandcookies = () => {
+  const location = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [location.pathname]);
   return (
-    <div className="py-20 px-20">
+    <div className="pt-28 pb-20 px-20 ">
       <h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
       <p className="mb-6">
       <strong className="text-base"> Effective Date:</strong> 4 February 2025
