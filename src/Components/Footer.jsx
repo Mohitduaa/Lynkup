@@ -1,11 +1,11 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="bg-[##100E19] text-white px-6 py-8 md:px-12 md:py-12 bg-[#272530] ">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="flex  justify-around">
         <div>
           <h1 className="font-bold text-2xl">Lynkup</h1>
           <p className="text-sm mt-4">
