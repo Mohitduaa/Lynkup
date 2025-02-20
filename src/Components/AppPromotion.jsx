@@ -49,7 +49,7 @@ const AppPromotion = () => {
           <div className="-mt-10">
 
           <img className=" -rotate-[10deg] -ml-2 mb-2" src="images/right (2).png" alt="" />
-        <h1 className="absolute -ml-12 text-white font-poppins font-medium">100%free creators</h1>
+           <h1 className="absolute -ml-12 text-white font-poppins font-medium">100% free for creators</h1>
           </div>
         </div>
       </div>

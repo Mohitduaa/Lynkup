@@ -41,9 +41,7 @@ const Campaign = () => {
         Book your kick-off call →
       </button>
 
-      <p className="text-sm mt-6">
-        👉 Or click here if you're ready to get started on your own
-      </p>
+      
     </div>
   );
 };

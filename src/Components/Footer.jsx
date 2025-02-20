@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-[##100E19] text-white px-6 py-8 md:px-12 md:py-12 bg-[#272530] ">
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <h1 className="font-bold text-2xl">Lynkup</h1>
           <p className="text-sm mt-4">
@@ -14,61 +14,16 @@ const Footer = () => {
           </p>
         </div>
 
-        <div>
-          <h2 className="font-semibold text-lg">As seen in</h2>
-          <div className="flex flex-col flex-wrap gap-4 mt-4">
-            {/* <img
-              src="https://via.placeholder.com/100x40?text=The+Sunday+Times"
-              alt="The Sunday Times"
-              className="h-8"
-            /> */}
-            <h1>The Sunday Times</h1>
-            {/* <img
-              src="https://via.placeholder.com/80x40?text=The+Grocer"
-              alt="The Grocer"
-              className="h-8"
-            /> */}
-            <h1>The Grocer</h1>
-            {/* <img
-              src="https://via.placeholder.com/80x40?text=Restaurant"
-              alt="Restaurant Marketer"
-              className="h-8"
-            /> */}
-            <h1>Restaurant Marketer</h1>
-          </div>
-        </div>
+        
 
         {/* Section 3: Talent Partners */}
-        <div>
-          <h2 className="font-semibold text-lg">Talent partners</h2>
-          <div className="flex flex-col flex-wrap gap-4 mt-4">
-            {/* <img
-              src="https://via.placeholder.com/80x40?text=The+Creator+Co."
-              alt="The Creator Co."
-              className="h-8"
-            /> */}
-            <h1>The Creator</h1>
-            {/* <img
-              src="https://via.placeholder.com/80x40?text=GRAIL"
-              alt="GRAIL"
-              className="h-8"
-            /> */}
-            <h1>GRAIL</h1>
-            {/* <img
-              src="https://via.placeholder.com/80x40?text=Be+Talent"
-              alt="Be Talent"
-              className="h-8"
-            /> */}
-            <h1>Be Talent</h1>
-          </div>
-        </div>
+        
 
         {/* Section 4: Contact Us */}
         <div>
           <h2 className="font-semibold text-lg">Contact us</h2>
          
           <p className="text-sm mt-2">hello@invyted.com</p>
-          <p className="text-sm mt-2">Follow Us</p>
           <div className="flex  space-x-6 mt-10">
       {/* Instagram */}
       <a
@@ -92,16 +47,7 @@ const Footer = () => {
         <FaFacebook />
       </a>
 
-      {/* Twitter */}
-      <a
-        href="https://www.twitter.com/yourprofile"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-400 text-2xl hover:text-blue-600 transition-colors"
-        aria-label="Twitter"
-      >
-        <FaTwitter />
-      </a>
+      
     </div>
         </div>
         <div className="flex flex-col flex-wrap gap-4 justify-center md:justify-end">
@@ -111,12 +57,7 @@ const Footer = () => {
           <a href="#" className="text-[#FDFDFD] hover:underline">
             Influencers
           </a>
-          <a href="#" className="text-[#FDFDFD] hover:underline">
-            About us
-          </a>
-          <a href="#" className="text-[#FDFDFD] hover:underline">
-            Contact us
-          </a>
+         
           <p className="text-[#FDFDFD]">
         <Link to="/Faq" className="hover:underline">
           FAQs
