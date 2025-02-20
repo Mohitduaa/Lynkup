@@ -18,7 +18,7 @@ const AppPromotion = () => {
             <img src="images/playstore.png" alt="Google Play" className="h-10 w-full"/>
           </div>
         </div>
-        <div className="flex gap-8 py-2">
+        {/* <div className="flex gap-8 py-2">
           <div className="flex">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold" className="h-6 w-6"> <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold" className="h-6 w-6"> <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
@@ -35,7 +35,7 @@ const AppPromotion = () => {
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold" className="h-6 w-6"> <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" /></svg>
           <h1>4.9</h1>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className=" flex justify-center items-center">

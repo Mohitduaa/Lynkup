@@ -23,11 +23,11 @@ const Footer = () => {
         <div>
           <h2 className="font-semibold text-lg">Contact us</h2>
          
-          <p className="text-sm mt-2">hello@invyted.com</p>
-          <div className="flex  space-x-6 mt-10">
+          <p className="text-sm mt-2">lynkupindia@gmail.com</p>
+          <div className="flex gap-2 mt-2">
       {/* Instagram */}
       <a
-        href="https://www.instagram.com/yourprofile"
+        href="https://www.instagram.com/lynkupindia"
         target="_blank"
         rel="noopener noreferrer"
         className="text-pink-500 text-2xl hover:text-pink-700 transition-colors"
@@ -38,7 +38,7 @@ const Footer = () => {
 
       {/* Facebook */}
       <a
-        href="https://www.facebook.com/yourprofile"
+        href="https://www.facebook.com/people/lynkup/61573045351381/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-600 text-2xl hover:text-blue-800 transition-colors"

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import HeroSection from "./HeroSection"; // Import the HeroSection component
+import { NavLink } from "react-router-dom";
 
 const Navbaar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,15 +23,14 @@ const Navbaar = () => {
     <>
       <div
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-          isScrolled ? "bg-white shadow-md" : "bg-transparent"
+          isScrolled ? "bg-[#fdfdfd9a] shadow-md" : "bg-transparent"
         }`}
       >
-        <div className="flex justify-between items-center px-4 md:px-6 lg:px-20 py-2 bg-white">
-          {/* Logo Section */}
+        <div className="flex justify-between items-center px-4 md:px-6 lg:px-20 py-2 bg-[#fdfdfd9a]">
           <div>
             <img
-              className="w-full h-[50px]"
-              src="images/icon1.png"
+              className="w-full "
+              src="images/logo1.svg"
               alt="Logo"
             />
           </div>
@@ -38,21 +38,22 @@ const Navbaar = () => {
           {/* Desktop Menu */}
           <div className="hidden lg:block">
             <ul className="flex gap-3">
-              {[
+              {/* {[
                 "Book a Demo",
-                "Testimonials",
                 "Influencers",
                 "Blog",
-                "AppStore",
-                "GooglePlay",
+                "Business Login",
               ].map((item, index) => (
-                <li
+                <li 
                   key={index}
-                  className="font-normal font-poppins text-[14px] lg:text-[17px] text-[#100E19] bg-[#FDFDFD] px-[8px] py-[4px] rounded-lg cursor-pointer"
-                >
+                  className="font-normal font-poppins text-[14px] lg:text-[17px] text-white bg-[#100E19] px-[8px] py-[4px] rounded-lg cursor-pointer">
                   {item}
                 </li>
-              ))}
+              ))} */}
+              <li className="font-normal font-poppins text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer">Book a Demo </li>
+              <li className="font-normal font-poppins text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer">Influencers</li>
+              <li className="font-normal font-poppins text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer">Blog</li>
+              <a href="https://socialmeadmin.testenvapp.com/auth" className="font-normal font-poppins text-[14px] lg:text-[16px] text-white bg-[#100E19] px-[8px] py-[6px] rounded-lg cursor-pointer"target="_blank" rel="noopener noreferrer">Login as Business </a>
             </ul>
           </div>
 

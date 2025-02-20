@@ -21,39 +21,36 @@ const Appfeatures = () => {
         <div className="flex flex-col gap-6 md:gap-10">
           {[
             {
+              img: "images/2.svg",
               title: "Automated Booking System",
               description: "No back-and-forth coordination required.",
             },
             {
+              img: "images/4.svg",
               title: "Verified Instagram API Integration",
               description: "Safe and secure authentication.",
             },
             {
+              img: "images/3.svg",
               title: "Real-Time Campaign Tracking",
               description: "Monitor content deliveries with ease.",
             },
             {
+              img: "images/1.svg",
               title: "Strike & Reputation System",
               description:
                 "Ensures accountability and timely content submissions.",
             },
             {
+              img: "images/5.svg",
               title: "Performance-Based Matching",
               description:
                 "Get connected with the best-fit creators for your brand.",
             },
           ].map((feature, index) => (
             <div key={index} className="flex gap-3 items-center">
-              <div className="text-[#FDFDFD] bg-[#653FCC]  p-2 rounded-lg">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="40px"
-                  viewBox="0 -960 960 960"
-                  width="40px"
-                  fill="white"
-                >
-                  <path d="M319.33-246.67h321.34v-66.66H319.33v66.66Zm0-166.66h321.34V-480H319.33v66.67ZM226.67-80q-27 0-46.84-19.83Q160-119.67 160-146.67v-666.66q0-27 19.83-46.84Q199.67-880 226.67-880H574l226 226v507.33q0 27-19.83 46.84Q760.33-80 733.33-80H226.67Zm314-542.67v-190.66h-314v666.66h506.66v-476H540.67Zm-314-190.66v190.66-190.66 666.66-666.66Z" />
-                </svg>
+              <div className="text-[#FDFDFD] bg-[#653FCC]  p-2 rounded-lg">   
+                <img src={feature.img} alt="" />
               </div>
               <div>
                 <h1 className="text-base md:text-xl font-poppins font-bold">
