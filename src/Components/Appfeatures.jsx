@@ -2,8 +2,8 @@ import React from 'react';
 
 const Appfeatures = () => {
   return (
-    <div className='bg-[#272530] py-10'>
-      <div className="flex flex-col md:flex-row justify-between items-center px-10 md:mx-40  py-10 my-10  rounded-md ">
+    <div className='bg-[#272530] py-1'>
+      <div className="flex flex-col gap-8 md:gap-0 md:flex-row justify-between items-center px-10 md:mx-40  py-10 my-10  rounded-md ">
         <div className="flex flex-col items-start px-5">
           <h1 className="text-2xl md:text-3xl font-poppins font-bold mb-4">
           Our Features:

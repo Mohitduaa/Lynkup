@@ -91,7 +91,7 @@ const Navbaar = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden bg-white text-black shadow-md">
+          <div className="lg:hidden bg-[#100E19] text-white shadow-md">
             <ul className="flex flex-col gap-3 px-4 py-4">
               {[
                 "Book a Demo",

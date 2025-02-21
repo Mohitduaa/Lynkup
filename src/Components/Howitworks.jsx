@@ -42,7 +42,7 @@ const Howitworks = () => {
         How it works
       </h2>
 
-      <div className="mx-20 grid md:grid-cols-2 gap-6">
+      <div className="md:mx-20 grid md:grid-cols-2 gap-6">
         {steps.map((step, index) => (
           <div
             key={index}

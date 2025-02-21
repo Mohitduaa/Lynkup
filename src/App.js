@@ -17,27 +17,13 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      {/* <Priviacyandcookies/> */}
-      {/* <HeroSection/>
-      <Commitments/>
-      <Howitworks/>
-      <Cards/>
-      <Appfeatures/>
-      <AppPromotion/>
-      <CardSecond/>
-      <Campain/>  */}
+
       <Routes>
-      <Route path={"/"} element={<><HeroSection/><Commitments/><Howitworks/><Cards/><Appfeatures/><AppPromotion/><CardSecond/><Campain/>
-
-
-
-
-</>}/>
+      <Route path={"/"} element={<><HeroSection/><Commitments/><Howitworks/><Cards/><Appfeatures/><AppPromotion/><CardSecond/><Campain/></>}/>
         <Route path="/privacy" element={<Priviacyandcookies/>} />
         <Route path="/Faq" element={<FAQS/>} />
 
       </Routes>
-      {/* <FAQS/> */}
     </div>
   );
 }
