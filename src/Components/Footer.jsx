@@ -1,5 +1,7 @@
 import React from "react";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaVoicemail } from "react-icons/fa6";
+
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -12,8 +14,10 @@ const Footer = () => {
         </div>
         <div>
           <h2 className="font-semibold text-lg">Contact us</h2>
-         
-          <p className="text-sm mt-2">lynkupindia@gmail.com</p>
+         <div className="flex items-center gap-2 mt-2">
+         <FaEnvelope  className="text-2xl"/>
+          <p className="text-sm ">lynkupindia@gmail.com</p>
+         </div>
           <div className="flex gap-2 mt-2">
       <a href="https://www.instagram.com/lynkupindia" target="_blank" rel="noopener noreferrer" className="text-pink-500 text-2xl hover:text-pink-700 transition-colors" aria-label="Instagram">
         <FaInstagram />
