@@ -13,10 +13,9 @@ const Cards = () => {
           />
         </div>
         <div className="w-full lg:w-1/2">
-          <h1 className="font-poppins text-lg lg:text-xl font-bold">Experiences</h1>
+          <h1 className="font-poppins text-lg lg:text-xl font-bold">Fresh Opportunities Weekly</h1>
           <p className="text-sm lg:text-lg font-Lexend  font-extralight mb-2">
-            New experiences and offers drop each week for you to share with your
-            audience
+          Discover new experiences and exclusive offers to share with your audience.
           </p>
         </div>
       </div>
@@ -31,10 +30,10 @@ const Cards = () => {
           />
         </div>
         <div className="w-full lg:w-1/2">
-          <h1 className="font-poppins text-lg lg:text-xl font-bold">Experiences</h1>
+          <h1 className="font-poppins text-lg lg:text-xl font-bold">Seamless Collaborations</h1>
           <p className="text-sm lg:text-lg font-Lexend  font-extralight mb-2">
-            Simplifies finding and booking collaborations so you can focus on
-            creating content
+          Easily find and book partnerships, so you can focus on creating great content.
+
           </p>
         </div>
       </div>
@@ -49,9 +48,9 @@ const Cards = () => {
           />
         </div>
         <div className="w-full lg:w-1/2">
-          <h1 className="font-poppins text-lg lg:text-xl font-bold">Experiences</h1>
+          <h1 className="font-poppins text-lg lg:text-xl font-bold">Engagement Over Followers</h1>
           <p className="text-sm lg:text-lg font-Lexend  font-extralight mb-2">
-            Get collaborations based on engagement, not just follower count
+          Get collaborations based on your impact, not just your follower count.
           </p>
         </div>
       </div>
@@ -66,10 +65,9 @@ const Cards = () => {
           />
         </div>
         <div className="w-full lg:w-1/2">
-          <h1 className="font-poppins text-lg lg:text-xl font-bold">Experiences</h1>
+          <h1 className="font-poppins text-lg lg:text-xl font-bold">Thriving Creator Community</h1>
           <p className="text-sm lg:text-lg font-Lexend  font-extralight mb-2">
-            Join our community of creators. Share ideas, tips, and attend
-            meetups, events & workshops
+          Connect, share ideas, and join exclusive meetups, events, and workshops.
           </p>
         </div>
       </div>

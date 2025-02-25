@@ -7,17 +7,17 @@ const Priviacyandcookies = () => {
       window.scrollTo(0, 0);
     }, [location.pathname]);
   return (
-    <div className="pt-28 pb-20 px-20 ">
-      <h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
+    <div className="pt-28 pb-20 px-20 bg-[#272530] ">
+      <h1 className="text-4xl font-bold mb-4">Terms and Conditions for LynkUp App</h1>
       <p className="mb-6">
-      <strong className="text-base"> Effective Date:</strong> 4 February 2025
-      </p>
-      <p className="mb-4 font-Lexend font-extralight">
-        Thank you for choosing Lynkup, the mobile application that connects influencers with businesses. Your privacy is important to us, and we are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the Lynkup mobile application ("App"). Please read this Privacy Policy carefully. By using the App, you agree to the terms of this Privacy Policy.
+      <strong className="text-base">Last Updated:</strong> 31st January 2025
       </p>
 
-      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">1. Information We Collect</h2>
-      <h3 className="text-xl font-poppins font-semibold mt-4 mb-3 ">a. Information You Provide Directly</h3>
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">1. Introduction</h2>
+      <p className="mb-4 font-Lexend font-extralight">
+      Welcome to LynkUp! By accessing or using the LynkUp app ("the App"), you agree to comply with and be bound by these Terms and Conditions ("Terms"). If you do not agree with these Terms, please discontinue using the App immediately.
+      </p>
+      {/* <h3 className="text-xl font-poppins font-semibold mt-4 mb-3 ">a. Information You Provide Directly</h3>
       <ul className="list-disc pl-10 mb-4">
         <li className=" font-Lexend font-extralight">
           <strong>Account Information:</strong> When you sign up using Facebook Login, we collect your name, email address, profile picture, and other information you choose to share from your Facebook account.
@@ -48,67 +48,128 @@ const Priviacyandcookies = () => {
         <li>
           <strong>Analytics Providers:</strong> We may receive information from third-party analytics providers to help us understand how users interact with the App.
         </li>
-      </ul>
+      </ul> */}
 
-      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">2. How We Use Your Information</h2>
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">2.Definitions</h2>
       <ul className="list-disc pl-10 mb-3">
-        <li>To create and manage your account.</li>
-        <li>To connect influencers with businesses based on their preferences and requirements.</li>
-        <li>To provide, maintain, and improve the App.</li>
-        <li>To communicate with you, including sending notifications, updates, and promotional materials.</li>
-        <li>To analyze usage trends and optimize the user experience.</li>
-        <li>To comply with legal obligations and enforce our terms of service.</li>
+        <li><strong>"App":</strong> The LynkUp mobile application and its associated services.</li>
+        <li><strong>"User":</strong>Any individual who registers and uses the App.</li>
+        <li><strong>"Creator":</strong>A User who has linked their Instagram account to the App and is eligible to receive offers from restaurants.</li>
+        <li><strong>"Restaurant":</strong>Any business registered on the App offering products or services to Creators.</li>
+        <li><strong>"Instagram API"</strong>The official API provided by Instagram for integrating third-party services with Instagram profiles.</li>
       </ul>
 
-      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">3. How We Share Your Information</h2>
-      <p className="mb-4 pl-8">
-        Details about sharing information can be expanded upon here, depending on your specific privacy policy requirements.
-      </p>
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">3.Registration and Account</h2>
+      
       <ul className="list-disc pl-12 mb-4 ">
-        <li><strong>With Other Users:</strong>If you are an influencer, your profile information (e.g., social media handles, follower counts) may be shared with businesses. If you are a business, your campaign details may be shared with influencers.</li>
-        <li><strong>With Service Providers:</strong>We may share your information with third-party service providers who assist us in operating the App, such as hosting, analytics, and customer support.</li>
-        <li><strong>For Legal Reasons:</strong>We may disclose your information if required by law or to protect our rights, property, or safety.</li>
-        <li><strong>With Your Consent:</strong>We may share your information with third parties if you give us explicit consent to do so.</li>
+        <li>To use the App, you must create an account and link your Instagram profile via the official Instagram API. By doing so, you authorize LynkUp to access permitted data in accordance with Instagram's terms of service.</li>
+        <li>You are solely responsible for maintaining the confidentiality of your account credentials and all activities conducted through your account.</li>
+        
       </ul>
 
-      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">4. Data Security</h2>
-      <p className="mb-4 pl-8">
-        We take reasonable measures to protect your information from unauthorized access, use, or disclosure. However, no method of transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute security.
-      </p>
-
-      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">5. Your Choices and Rights</h2>
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">4.Use of Instagram API</h2>
       <ul className="list-disc pl-10 mb-4 ">
-        <li><strong>Access and Update:</strong> You can access and update your account information through the App settings.</li>
-        <li><strong>Deactivate Account:</strong> You can deactivate your account at any time by contacting us at [Insert Contact Email].</li>
-        <li><strong>Opt-Out of Communications:</strong> You can opt-out of receiving promotional emails by following the unsubscribe link in the email.</li>
-        <li><strong>Facebook Permissions:</strong> You can manage the information we receive from Facebook through your Facebook account settings.</li>
+        <li>LynkUp uses the official Instagram API to securely connect your profile to the App. We do not store your Instagram username or password</li>
+        <li>The App will only access data that you authorize via the Instagram API and will not interfere with your Instagram account or its algorithm.</li>
+        <li>Instagram's terms of service govern your Instagram use. LynkUp is not responsible for any actions or penalties imposed by Instagram.</li>
       </ul>
 
-      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">6. Children’s Privacy</h2>
-      <p className="mb-4 pl-8">
-        The Lynkup App is not intended for use by individuals under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected such information, we will take steps to delete it.
-      </p>
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">5.Offers from Restaurants</h2>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>By linking your Instagram account, you gain access to offers from restaurants and businesses listed on the App. Offers may include complimentary items, discounts, or event invitations.</li>
+        <li>Details of each offer, including its requirements, are outlined in the "We’re Offering" section of the booking</li>
+        <li>By booking an offer, you agree to deliver the required content (e.g., Instagram posts, stories, or other promotional materials) within the specified time frame, provided the restaurant accepts your booking.</li>
+      </ul>
 
-      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">7. Third-Party Links</h2>
-      <p className="mb-4 pl-8">
-        The App may contain links to third-party websites or services. We are not responsible for the privacy practices or content of these third parties. We encourage you to review their privacy policies before providing any information.
-      </p>
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">6.Content Delivery and Guidelines</h2>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>You must deliver content as outlined in the offer, including posting on Instagram and writing Google reviews, within the designated time frame.</li>
+        <li>Content must include the specified tags, mentions, or hashtags as outlined in the offer.</li>
+        <li>LynkUp may monitor your content to ensure compliance and reserves the right to take appropriate action for non-compliance.</li>
+      </ul>
 
-      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">8. Changes to This Privacy Policy</h2>
-      <p className="mb-4 pl-8">
-        We may update this Privacy Policy from time to time. If we make material changes, we will notify you through the App or by email. Your continued use of the App after the changes take effect constitutes your acceptance of the updated Privacy Policy.
-      </p>
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">7.  Strikes and Account Suspension</h2>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>A strike may be issued for:</li>
+          <ul>
+            <li>1. Canceling a booking within 24 hours of the scheduled time.</li>
+            <li>2. Failing to deliver required content within the specified timeframe.</li>
+            <li>3. Arriving late (over 15 minutes) or failing to show up at the venue.</li>
+            <li>4. Not adhering to the content posting requirements (e.g., incorrect tags).</li>
 
-      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">9. Contact Us</h2>
-      <div className="pl-8">
+          </ul>
+          <li>Accumulating three strikes will result in account suspension, rendering you ineligible for offers.</li>
+      </ul>
 
-      <p className="">
-        If you have any questions or concerns about this Privacy Policy, please contact us at [Insert Contact Email].
-      </p>
-      <h1>Email: info@lynkupapp.com</h1>
-      <h1>Address: 333, Sector 45, Gurugram, Haryana - 120011</h1>
-      <h1>By using the Lynkup App, you acknowledge that you have read and understood this Privacy Policy. Thank you for trusting us with your information.</h1>
-      </div>
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">8. Data Privacy and Security</h2>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>LynkUp is committed to protecting your personal information and processes it in accordance with our Privacy Policy.</li>
+        <li>Data shared with restaurants is limited to engagement metrics, profile details, and task completion status. Sensitive data is never disclosed</li>
+        <li>LynkUp employs industry-standard security measures but cannot guarantee absolute protection against unauthorized access.</li>
+      </ul>
+
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">9.Data Collection and Usage</h2>
+      <h1 className="text-xl font-poppins font-semibold mt-4 mb-3 ml-6">Data Collected from Instagram</h1>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>LynkUp collects data via the Instagram API, including:</li>
+          <ul>
+            <li className="list-disc">Profile details (e.g., username, bio, profile picture).</li>
+            <li className="list-disc">Metrics such as followers, engagement rates, and content performance</li>
+            <li className="list-disc">Insights from promotional content posted as part of offers.</li>
+
+          </ul>
+      </ul>
+      <h1 className="text-xl font-poppins font-semibold mt-4 mb-3 ml-6">Sharing Data with Restaurants</h1>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>Relevant data is shared with restaurants for offer evaluation purposes. No data beyond what is necessary for collaboration is disclosed.</li>
+      </ul>
+      <h1 className="text-xl font-poppins font-semibold mt-4 mb-3 ml-6">Retention of Data</h1>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>Data is retained only as long as necessary to facilitate offers and improve app functionality. Upon account deletion, all associated data will be permanently deleted, except where retention is legally required.</li>
+      </ul>
+      <h1 className="text-xl font-poppins font-semibold mt-4 mb-3 ml-6">Third-Party Data Access</h1>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>LynkUp does not sell or rent data to third parties. Authorized third-party access is restricted to operational needs under data protection agreements.</li>
+      </ul>
+      <h1 className="text-xl font-poppins font-semibold mt-4 mb-3 ml-6">Marketing Communications</h1>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>By using the App, you consent to receiving updates about offers and promotions. You may opt out by adjusting your settings.</li>
+      </ul>
+      <h1 className="text-xl font-poppins font-semibold mt-4 mb-3 ml-6">Accuracy of Data</h1>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>You are responsible for providing accurate information. LynkUp is not liable for issues arising from inaccurate data.</li>
+      </ul>
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">10. Restrictions on Use</h2>
+      <h3>You agree not to:</h3>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>Use the App for illegal or unauthorized purposes</li>
+        <li>Violate any laws or regulations in connection with the App.</li>
+        <li>Impersonate others or misrepresent your affiliation.</li>
+        <li>Overburden or impair the App’s functionality.</li>
+      </ul>
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">11. Termination</h2>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>LynkUp reserves the right to suspend or terminate your account without prior notice for violations of these Terms or any inappropriate behavior.</li>
+      </ul>
+
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">12. Limitation of Liability</h2>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>LynkUp is not responsible for damages arising from the use or inability to use the App, including issues with restaurants or third-party services.</li>
+      </ul>
+
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">13. Modifications to Terms</h2>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>LynkUp reserves the right to update these Terms. Significant changes will be communicated via the App, and continued use signifies acceptance.</li>
+      </ul>
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">14. Governing Law</h2>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>These Terms are governed by the laws of India. Any disputes are subject to the exclusive jurisdiction of the courts in India.</li>
+      </ul>
+      <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">15. Contact Us</h2>
+      <ul className="list-disc pl-10 mb-4 ">
+        <li>For any questions or concerns, contact us at: lynkupindia@gmail.com</li>
+      </ul>
+      
     </div>
   );
 };

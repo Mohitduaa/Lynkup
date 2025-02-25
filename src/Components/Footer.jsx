@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-[##100E19] text-white px-6 py-8 md:px-12 md:py-5 bg-[#272530] ">
-      <div className="flex flex-col gap-2 md:flex-row  justify-around">
+    <footer className="bg-[#100E19] text-white px-6 py-8 md:px-12 md:py-5  ">
+      <div className="flex flex-col gap-2 md:gap-5 md:flex-row  justify-around">
         <div>
           <h1 className="font-bold text-2xl">Lynkup</h1>
-          <p className="text-sm mt-4">Lynkup is registered in England and Wales under company number 13889273.</p>
+          <p className="text-sm mt-4">12/6, First Floor, Cabinet-VI, Metro Pillar 480-81, behind SBI Bank, <br /> Mathura Road, Mathura Road Faridabad, Faridabad, Haryana.</p>
         </div>
         <div>
           <h2 className="font-semibold text-lg">Contact us</h2>

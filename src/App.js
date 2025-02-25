@@ -19,7 +19,7 @@ function App() {
     <div className="App">
 
       <Routes>
-      <Route path={"/"} element={<><HeroSection/><Commitments/><Howitworks/><Cards/><Appfeatures/><AppPromotion/><CardSecond/><Campain/></>}/>
+      <Route path={"/"} element={<><HeroSection/><Commitments/><Howitworks/><Cards/><Appfeatures/><AppPromotion/><Campain/></>}/>
         <Route path="/privacy" element={<Priviacyandcookies/>} />
         <Route path="/Faq" element={<FAQS/>} />
 

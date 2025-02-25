@@ -2,34 +2,35 @@ import React from 'react'
 const steps = [
     {
       id: "01",
-      title: "Welcome",
+      title: " Welcome to LynkUp!",
+      subheading:"We're thrilled to have you here! ",
       description:
-        "Hey there! We're thrilled to have you on our app. On Invyed, we connect amazing content creators with exciting opportunities from businesses, music venues, movie premieres, and more – all for free!",
+        "LynkUp is the ultimate platform that seamlessly connects content creators with restaurants for exciting, mutually beneficial collaborations—completely free! Whether you're a foodie looking to discover hidden gems or a restaurant eager to amplify your brand, LynkUp makes partnerships effortless and rewarding. Let’s eat, share, and grow together",
       icon: "👋",
       size: "row-span-1"
     },
     {
       id: "02",
-      title: "During your visit",
+      title: "Effortless Collaborations",
       description:
-        "Take beautiful content like we know you can! Showcase the venue and your experience as best as possible. If you can’t make it, please cancel through the app. If you don’t cancel over 3 times, you will be banned from future opportunities.",
+        "Discover our curated offers or simply search by name or date. Once you find the perfect match, select your preferred time and confirm your booking. Once accepted by the restaurant, simply show up, savor the experience, and create amazing content. It’s that simple—connect, collaborate, and create!",
       icon: "🎁",
       size: "row-span-3"
 
     },
     {
       id: "03",
-      title: "After",
+      title: "Create, Complete & Connect!",
       description:
-        "Post your content within 48 hours (minimum of 2x IG stories or 1x TikTok). Remember to mention the relevant accounts and hashtags.",
+        "After your visit, post your content with the required tags within 48 hours. Mark the task as completed in the app’s Tasks section once your content is live. Then, explore more exciting offers and start your next collaboration. The more you create, the more opportunities await!",
       icon: "📸",
       size: "row-span-3"
     },
     {
       id: "04",
-      title: "Extra!",
+      title: "Bonus",
       description:
-        "If you add @invyed.app Ambassador in your IG/TT Bio, this will increase your chances of being accepted into ‘request’ events/offers!",
+        "Add @lynkupindia Ambassador to your Instagram bio to boost your chances of getting accepted for exclusive events and offers! ",
       icon: "⭐",
       size: "row-span-1"
     },
@@ -51,6 +52,7 @@ const Howitworks = () => {
             <span className="text-6xl">{step.icon}</span>
 
             <h3 className="text-xl font-bold">{step.title}</h3>
+            <h4>{step.subheading}</h4>
 
             <p className=" text-sm font-Lexend font-extralight mb-2">{step.description}</p>
 

@@ -35,6 +35,33 @@ const FAQS = () => {
         "We use engagement-based selection criteria to ensure genuine creators get opportunities.",
     },
   ];
+  const Resturant = [
+    {
+      question: "Can cloud kitchens/bars use LynkUp?",
+      answer:
+        "Yes, LynkUp is open to restaurants, cafes, cloud kitchens, bars, and event organizers.",
+    },
+    {
+      question: "How do I choose the right creators for my brand?",
+      answer:
+        "You can review applicants and select creators based on their engagement, content quality, and relevance to your brand.",
+    },
+    {
+      question: "Can I set specific content requirements?",
+      answer:
+        "Yes, you can outline content expectations, including format, hashtags, and mentions, in your offer details.",
+    },
+    {
+      question: "How do I track the content created for my venue?",
+      answer:
+        "You can monitor tagged posts and content submissions through the LynkUp platform updates.",
+    },
+    {
+      question: "Can I collaborate with the same creator multiple times?",
+      answer:
+        "Yes, you can accept creators for repeat collaborations if their content aligns with your brand’s vision.",
+    },
+  ];
 
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -43,13 +70,13 @@ const FAQS = () => {
   };
 
   return (
-    <div className="px-6 lg:px-20 py-20">
+    <div className="px-6 lg:px-20 py-20 bg-[#272530]">
       <h1 className="text-2xl lg:text-3xl font-bold font-poppins mb-8 text-center">
         Frequently Asked Questions
       </h1>
       <div className="divide-y divide-gray-200">
         <h1 className="text-2xl lg:text-3xl font-bold font-poppins mb-8">
-          Influencers
+          Creators
         </h1>
         {faqs.map((faq, index) => (
           <div key={index} className="py-4">
@@ -69,7 +96,7 @@ const FAQS = () => {
               </span>
             </div>
             {openIndex === index && (
-              <p className="mt-3 text-sm lg:text-base font-Lexend text-gray-700">
+              <p className="mt-3 text-sm lg:text-base font-Lexend text-white">
                 {faq.answer}
               </p>
             )}
@@ -78,9 +105,8 @@ const FAQS = () => {
       </div>
       <div className="divide-y divide-gray-200">
         <h1 className="text-2xl lg:text-3xl font-bold font-poppins mb-8 py-5">
-          Brands
-        </h1>
-        {faqs.map((faq, index) => (
+        Restaurants        </h1>
+        {Resturant.map((faq, index) => (
           <div key={index} className="py-4">
             <div
               onClick={() => toggleFAQ(index)}
@@ -98,7 +124,7 @@ const FAQS = () => {
               </span>
             </div>
             {openIndex === index && (
-              <p className="mt-3 text-sm lg:text-base font-Lexend text-gray-700">
+              <p className="mt-3 text-sm lg:text-base font-Lexend text-white">
                 {faq.answer}
               </p>
             )}
