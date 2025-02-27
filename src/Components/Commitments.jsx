@@ -19,7 +19,7 @@ const Commitments = () => {
       </div>
 
       <div className="flex flex-col gap-4 w-full lg:w-auto">
-        <div className="mb-4">
+        <div className="mb-8">
           <h1 className="text-4xl md:text-5xl font-bold font-poppins mb-1">92%</h1>
           <p className="font-Lexend text-sm md:text-base lg:text-[12px] text-[#FDFDFD] max-w-[280px] mx-auto lg:mx-0">
             of consumers trust online word-of-mouth

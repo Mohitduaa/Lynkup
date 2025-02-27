@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#100E19] text-white px-6 py-8 md:px-12 md:py-5  ">
+    <footer className="bg-[#272530] text-white px-6 py-8 md:px-12 md:py-5  ">
       <div className="flex flex-col gap-2 md:gap-5 md:flex-row  justify-around">
         <div>
           <h1 className="font-bold text-2xl">Lynkup</h1>
@@ -29,8 +29,8 @@ const Footer = () => {
     </div>
         </div>
         <div className="flex flex-col flex-wrap gap-4 justify-center md:justify-end">
-          <a href="#" className="text-[#FDFDFD] hover:underline">   Brands </a>
-          <a href="#" className="text-[#FDFDFD] hover:underline">  Creators</a>
+          <Link to="https://socialmeadmin.testenvapp.com/auth" className="text-[#FDFDFD] hover:underline">Businesses </Link>
+          <Link href="#" className="text-[#FDFDFD] hover:underline">  Creators</Link>
          <p className="text-[#FDFDFD]"><Link to="/Faq" className="hover:underline">FAQs</Link></p>
         <p className="text-[#FDFDFD]"><Link to="/privacy" className="hover:underline">Terms and conditions </Link></p>
         </div>

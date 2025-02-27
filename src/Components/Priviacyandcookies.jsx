@@ -7,7 +7,7 @@ const Priviacyandcookies = () => {
       window.scrollTo(0, 0);
     }, [location.pathname]);
   return (
-    <div className="pt-28 pb-20 px-20 bg-[#272530] ">
+    <div className="pt-28 pb-20 px-20  ">
       <h1 className="text-4xl font-bold mb-4">Terms and Conditions for LynkUp App</h1>
       <p className="mb-6">
       <strong className="text-base">Last Updated:</strong> 31st January 2025
@@ -109,34 +109,34 @@ const Priviacyandcookies = () => {
       </ul>
 
       <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">9.Data Collection and Usage</h2>
-      <h1 className="text-xl font-poppins font-semibold mt-4 mb-3 ml-6">Data Collected from Instagram</h1>
-      <ul className="list-disc pl-10 mb-4 ">
+      <h1 className="text-xl font-poppins font-semibold mt-4 mb-2 ml-6">Data Collected from Instagram</h1>
+      <ul className="list-disc pl-16 mb-2 ">
         <li>LynkUp collects data via the Instagram API, including:</li>
-          <ul>
+      </ul>
+          <ul className="list-disc pl-20 ">
             <li className="list-disc">Profile details (e.g., username, bio, profile picture).</li>
             <li className="list-disc">Metrics such as followers, engagement rates, and content performance</li>
             <li className="list-disc">Insights from promotional content posted as part of offers.</li>
 
           </ul>
-      </ul>
       <h1 className="text-xl font-poppins font-semibold mt-4 mb-3 ml-6">Sharing Data with Restaurants</h1>
-      <ul className="list-disc pl-10 mb-4 ">
+      <ul className="list-disc pl-16 mb-4 ">
         <li>Relevant data is shared with restaurants for offer evaluation purposes. No data beyond what is necessary for collaboration is disclosed.</li>
       </ul>
       <h1 className="text-xl font-poppins font-semibold mt-4 mb-3 ml-6">Retention of Data</h1>
-      <ul className="list-disc pl-10 mb-4 ">
+      <ul className="list-disc pl-16 mb-4 ">
         <li>Data is retained only as long as necessary to facilitate offers and improve app functionality. Upon account deletion, all associated data will be permanently deleted, except where retention is legally required.</li>
       </ul>
       <h1 className="text-xl font-poppins font-semibold mt-4 mb-3 ml-6">Third-Party Data Access</h1>
-      <ul className="list-disc pl-10 mb-4 ">
+      <ul className="list-disc pl-16 mb-4 ">
         <li>LynkUp does not sell or rent data to third parties. Authorized third-party access is restricted to operational needs under data protection agreements.</li>
       </ul>
       <h1 className="text-xl font-poppins font-semibold mt-4 mb-3 ml-6">Marketing Communications</h1>
-      <ul className="list-disc pl-10 mb-4 ">
+      <ul className="list-disc pl-16 mb-4 ">
         <li>By using the App, you consent to receiving updates about offers and promotions. You may opt out by adjusting your settings.</li>
       </ul>
       <h1 className="text-xl font-poppins font-semibold mt-4 mb-3 ml-6">Accuracy of Data</h1>
-      <ul className="list-disc pl-10 mb-4 ">
+      <ul className="list-disc pl-16 mb-4 ">
         <li>You are responsible for providing accurate information. LynkUp is not liable for issues arising from inaccurate data.</li>
       </ul>
       <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">10. Restrictions on Use</h2>
@@ -148,25 +148,25 @@ const Priviacyandcookies = () => {
         <li>Overburden or impair the App’s functionality.</li>
       </ul>
       <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">11. Termination</h2>
-      <ul className="list-disc pl-10 mb-4 ">
+      <ul className="list-disc pl-14 mb-4 ">
         <li>LynkUp reserves the right to suspend or terminate your account without prior notice for violations of these Terms or any inappropriate behavior.</li>
       </ul>
 
       <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">12. Limitation of Liability</h2>
-      <ul className="list-disc pl-10 mb-4 ">
+      <ul className="list-disc pl-14 mb-4 ">
         <li>LynkUp is not responsible for damages arising from the use or inability to use the App, including issues with restaurants or third-party services.</li>
       </ul>
 
       <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">13. Modifications to Terms</h2>
-      <ul className="list-disc pl-10 mb-4 ">
+      <ul className="list-disc pl-14 mb-4 ">
         <li>LynkUp reserves the right to update these Terms. Significant changes will be communicated via the App, and continued use signifies acceptance.</li>
       </ul>
       <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">14. Governing Law</h2>
-      <ul className="list-disc pl-10 mb-4 ">
+      <ul className="list-disc pl-14 mb-4 ">
         <li>These Terms are governed by the laws of India. Any disputes are subject to the exclusive jurisdiction of the courts in India.</li>
       </ul>
       <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">15. Contact Us</h2>
-      <ul className="list-disc pl-10 mb-4 ">
+      <ul className="list-disc pl-14 mb-4 ">
         <li>For any questions or concerns, contact us at: lynkupindia@gmail.com</li>
       </ul>
       

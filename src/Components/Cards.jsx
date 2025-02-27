@@ -2,9 +2,12 @@ import React from "react";
 
 const Cards = () => {
   return (
-    <div className=" py-10 space-y-10  ">
-      {/* Card 1 */}
-      <div className="flex flex-col lg:flex-row justify-between items-center px-20  py-5 gap-8 bg-[#272530] ">
+    <section name="Creators" >
+    <div className=" py-10 bg-[#272530]  ">
+      <div className='mb-4'>
+      <h2 className="text-2xl md:text-4xl lg:text-5xl text-center font-poppins font-bold"> Why Creators Love LynkUp</h2>
+        </div>
+      <div className="flex flex-col lg:flex-row justify-between items-center px-20  py-5 gap-8  ">
         <div className="w-full lg:w-1/2">
           <img
             src="images/card1.png"
@@ -21,7 +24,7 @@ const Cards = () => {
       </div>
 
       {/* Card 2 */}
-      <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center py-5 px-20 gap-6 ">
+      <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center py-5 px-20 gap-6 bg-[#272530]">
         <div className="w-full lg:w-1/2">
           <img
             src="images/card1.png"
@@ -56,7 +59,7 @@ const Cards = () => {
       </div>
 
       {/* Card 4 */}
-      <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center py-5 px-20 gap-6">
+      <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center py-5 px-20 gap-6 bg-[#272530]">
         <div className="w-full lg:w-1/2">
           <img
             src="images/card1.png"
@@ -72,6 +75,7 @@ const Cards = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

@@ -2,7 +2,9 @@ import React from "react";
 
 const AppPromotion = () => {
   return (
-    <div className=" py-10 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-evenly  ">
+    <section name="Download" >
+
+    <div className=" py-10 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-evenly bg-[#272530] ">
       <div className="text-center lg:text-left  lg:pr-10">
         <h1 className="text-3xl lg:text-5xl  text-white font-poppins font-bold mb-4 ">
           Book and manage <br /> brand collaborations{" "} <br />
@@ -36,6 +38,7 @@ const AppPromotion = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

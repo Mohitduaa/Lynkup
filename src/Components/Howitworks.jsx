@@ -39,9 +39,9 @@ const Howitworks = () => {
   return (
     <div>
         <div className=" py-10 px-6 md:px-60">
-      <h2 className="text-3xl md:text-3xl font-bold text-center mb-8 font-poppins">
-        How it works
-      </h2>
+        <div className='mb-6'>
+      <h2 className="text-2xl md:text-4xl lg:text-5xl text-center font-poppins font-bold"> How it works </h2>
+        </div>
 
       <div className="md:mx-20 grid md:grid-cols-2 gap-6">
         {steps.map((step, index) => (

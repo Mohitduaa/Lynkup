@@ -12,18 +12,24 @@ import Footer from './Components/Footer';
 import FAQS from './Components/FAQS';
 import Priviacyandcookies from './Components/Priviacyandcookies';
 import { Routes, Route } from "react-router-dom";
+// import { Login } from './Components/Login';
 
 
 function App() {
   return (
     <div className="App">
-
+    <div className=''>
       <Routes>
       <Route path={"/"} element={<><HeroSection/><Commitments/><Howitworks/><Cards/><Appfeatures/><AppPromotion/><Campain/></>}/>
         <Route path="/privacy" element={<Priviacyandcookies/>} />
         <Route path="/Faq" element={<FAQS/>} />
 
       </Routes>
+      {/* <Login/> */}
+    </div>
+    <div>w-[70%]
+
+    </div>
     </div>
   );
 }

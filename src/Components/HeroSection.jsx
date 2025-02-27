@@ -5,7 +5,7 @@ const HeroSection = () => {
     <div
       className="h-[600px] md:h-[700px] lg:h-[800px] w-full"
       style={{
-        backgroundImage: `url('images/Back.jpg')`,
+        backgroundImage: `url('images/lynkuphero.png')`,
         backgroundSize: "cover",
         backgroundBlendMode: "screen",
       }}

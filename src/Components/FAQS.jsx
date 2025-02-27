@@ -70,7 +70,7 @@ const FAQS = () => {
   };
 
   return (
-    <div className="px-6 lg:px-20 py-20 bg-[#272530]">
+    <div className="px-6 lg:px-20 py-20 ">
       <h1 className="text-2xl lg:text-3xl font-bold font-poppins mb-8 text-center">
         Frequently Asked Questions
       </h1>
