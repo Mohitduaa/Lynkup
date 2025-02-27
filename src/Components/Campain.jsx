@@ -37,7 +37,7 @@ const Campaign = () => {
         </div>
       </div> */}
 
-      <button className="bg-white text-[#653FCC] font-Lexend font-extralight hover:bg-gray-100 font-medium py-3 px-6 rounded-full shadow-lg transition">
+      <button className="bg-white text-[#653FCC] font-Lexend  hover:bg-gray-100 font-medium py-3 px-6 rounded-full shadow-lg transition">
         Book your kick-off call →
       </button>
 

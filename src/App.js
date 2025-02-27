@@ -27,7 +27,7 @@ function App() {
       </Routes>
       {/* <Login/> */}
     </div>
-    <div>w-[70%]
+    <div>
 
     </div>
     </div>
