@@ -1,38 +1,48 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <div
-      className="h-[600px] md:h-[700px] lg:h-[800px] w-full"
-      style={{
-        backgroundImage: `url('images/lynkuphero.png')`,
-        backgroundSize: "cover",
-        backgroundBlendMode: "screen",
-      }}
-    >
-      <div className="flex justify-center md:justify-start items-center h-full px-4 md:px-12 lg:px-20">
-        <div className="text-center text-[#FDFDFD] md:text-left">
-          <h1 className="text-2xl md:text-4xl lg:text-[2.5rem] font-bold font-poppins mb-4">
-          Eat, Share, Grow
-          </h1>
-          <p className="font-Lexend text-[14px] md:text-xl font-extralight mb-2 max-w-[90%] md:max-w-[500px]">
-          A platform where creator marketing is accessible,  seamless,  and  mutually beneficial for creators and restaurants alike.
-          </p>
-          {/* <p className="font-Lexend font-extralight mb-2 max-w-[90%] md:max-w-[660px] text-[14px] md:text-xl">
-            <span className="font-poppins font-bold text-lg md:text-2xl">
-              Our Mission:
-            </span>{" "}
-            To empower creators with opportunities and help businesses leverage
-            influencer marketing with minimal effort.
-          </p> */}
-          {/* <p className="font-Lexend font-extralight max-w-[90%] md:max-w-[660px] text-[14px] md:text-xl">
-            <span className="font-poppins font-bold text-lg md:text-2xl">
-              Our Vision:
-            </span>{" "}
-            To be the go-to platform for barter collaborations between content
-            creators and hospitality brands.
-          </p> */}
-        </div>
+    <div className="h-[600px] md:h-[700px] lg:h-[800px] w-full relative overflow-hidden">
+      {/* Background Image with Zoom Effect */}
+      <motion.div
+        initial={{ scale: 1.2 }}
+        animate={{ scale: 1 }}
+        transition={{ duration: 3, ease: "easeOut" }}
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: `url('images/lynkuphero.png')`,
+          backgroundSize: "cover",
+          backgroundBlendMode: "screen",
+        }}
+      />
+
+      {/* Content */}
+      <div className="relative flex justify-center md:justify-start items-center h-full px-4 md:px-12 lg:px-20">
+        <motion.div
+          initial={{ opacity: 0, y: 100 }} // Starts lower for a slower effect
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 2, ease: "easeOut" }} // Slow Animation
+          className="text-center text-[#FDFDFD] md:text-left"
+        >
+          <motion.h1
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2, delay: 0.3, ease: "easeOut" }}
+            className="text-2xl md:text-4xl lg:text-[2.5rem] font-bold font-quicksand mb-4"
+          >
+            Eat, Share, Grow
+          </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2, delay: 0.6, ease: "easeOut" }}
+            className="font-Lexend text-[14px] md:text-xl font-extralight mb-2 max-w-[90%] md:max-w-[500px]"
+          >
+            A platform where creator marketing is accessible, seamless, and mutually beneficial for creators and restaurants alike.
+          </motion.p>
+        </motion.div>
       </div>
     </div>
   );

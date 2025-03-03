@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { motion } from 'framer-motion';
+
 const steps = [
     {
       id: "01",
@@ -16,7 +18,6 @@ const steps = [
         "Discover our curated offers or simply search by name or date. Once you find the perfect match, select your preferred time and confirm your booking. Once accepted by the restaurant, simply show up, savor the experience, and create amazing content. It’s that simple—connect, collaborate, and create!",
       icon: "🎁",
       size: "row-span-3"
-
     },
     {
       id: "03",
@@ -34,37 +35,49 @@ const steps = [
       icon: "⭐",
       size: "row-span-1"
     },
-  ];
+];
+
 const Howitworks = () => {
   return (
-    <div>
-        <div className=" py-10 px-6 md:px-60">
-        <div className='mb-6'>
-      <h2 className="text-2xl md:text-4xl lg:text-5xl text-center font-poppins font-bold"> How it works </h2>
-        </div>
+    <div className="py-10 px-6 md:px-60">
+      
+      {/* Heading Animation */}
+      <motion.div 
+        initial={{ opacity: 0, y: 50 }} 
+        whileInView={{ opacity: 1, y: 0 }} 
+        viewport={{ once: true, amount: 0.2 }} 
+        transition={{ duration: 0.8 }}
+        className="mb-6"
+      >
+        <h2 className="text-2xl md:text-4xl lg:text-5xl text-center font-quicksand font-bold">
+          How it works
+        </h2>
+      </motion.div>
 
+      {/* Steps Animation */}
       <div className="md:mx-20 grid md:grid-cols-2 gap-6">
         {steps.map((step, index) => (
-          <div
+          <motion.div
             key={index}
+            initial={{ opacity: 0, y: 50 }} 
+            whileInView={{ opacity: 1, y: 0 }} 
+            viewport={{ once: true, amount: 0.2 }} 
+            transition={{ duration: 0.8, delay: index * 0.2 }}
             className={`relative bg-[#272530] p-6 rounded-xl shadow-lg flex flex-col gap-2 ${step.size}`}
           >
             <span className="text-6xl">{step.icon}</span>
-
-            <h3 className="text-xl font-bold">{step.title}</h3>
-            <h4>{step.subheading}</h4>
-
-            <p className=" text-sm font-Lexend font-extralight mb-2">{step.description}</p>
+            <h3 className="text-xl font-bold font-quicksand">{step.title}</h3>
+            <h4 className='text-sm'>{step.subheading}</h4>
+            <p className="text-sm font-Lexend font-extralight mb-2">{step.description}</p>
 
             <div className="absolute -top-3 right-3 bg-[#653FCC] text-white font-bold text-sm w-10 h-10 flex items-center justify-center rounded-full">
               {step.id}
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Howitworks
+export default Howitworks;

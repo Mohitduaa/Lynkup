@@ -4,24 +4,24 @@ const CardSecond = () => {
   return (
     <div className='bg-[#272530] '>
       <div className="py-8 ">
-        <h1 className="text-center text-xl font-poppins font-bold">
+        <h1 className="text-center text-xl font-Lexend font-bold">
           Why work with influencers?
         </h1>
       </div>
       <div className="flex flex-col-reverse md:flex-row justify-between items-center md:items-start px-5 md:px-20 py-10 gap-10">
         <div className="flex flex-col gap-5 w-full md:w-1/2">
           <div>
-            <h1 className="text-xl md:text-2xl font-medium font-poppins">
+            <h1 className="text-xl md:text-2xl font-medium font-Lexend">
               Boost your business with local influencers
             </h1>
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-medium font-poppins">
+            <h1 className="text-xl md:text-2xl font-medium font-Lexend">
               11x more effective than traditional marketing
             </h1>
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-medium font-poppins">
+            <h1 className="text-xl md:text-2xl font-medium font-Lexend">
               An unlimited supply of high-quality, user-generated content
             </h1>
           </div>
