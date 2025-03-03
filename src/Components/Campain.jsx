@@ -27,7 +27,7 @@ const Campaign = () => {
         viewport={{ once: true }}
         className="text-lg lg:text-xl mb-6 font-Lexend"
       >
-        Book a free 15-minute kick-off call with our team and get started!
+        Book a free 15 minute kick-off call with our team and get started!
       </motion.p>
 
       <motion.button
