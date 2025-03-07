@@ -29,9 +29,9 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 2, delay: 0.3, ease: "easeOut" }}
-            className="text-2xl md:text-4xl lg:text-[2.5rem] font-bold font-quicksand mb-4"
+            className="text-2xl md:text-4xl lg:text-[2.1rem] font-bold font-quicksand mb-4"
           >
-            Eat, Share, Grow
+         Turn content into customers
           </motion.h1>
 
           <motion.p

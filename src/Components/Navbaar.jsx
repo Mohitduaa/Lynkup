@@ -25,7 +25,7 @@ const Navbaar = () => {
     <>
       <div
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-          isScrolled ? "bg-[#fdfdfd9a] shadow-md" : "bg-transparent"
+          isScrolled ? "bg-[#fdfdfdd4] shadow-md" : "bg-transparent"
         }`}
       >
         <div className="flex justify-between items-center px-4 md:px-6 lg:px-20 py-1 bg-[#fdfdfd9a]">
@@ -54,12 +54,12 @@ const Navbaar = () => {
                   {item}
                 </li>
               ))} */}
-              <Link to="Creators"  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer font-bold">Creators</Link>
               <Link className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer">Businesses</Link>
+              <Link to="Creators"  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer font-bold">Creators</Link>
               <Link to="Features"  smooth={true}  duration={500}  className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer">Our Features</Link>
               <Link to="Download"  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer"> Download App</Link>
 
-              <NavLink to="https://socialmeadmin.testenvapp.com/auth" className="font-normal font-quicksand text-[14px] lg:text-[16px] text-white bg-[#100E19] px-[8px] py-[6px] rounded-lg cursor-pointer" >Login as Business </NavLink>
+              <NavLink to="http://admin.lynkup.co.in" className="font-normal font-quicksand text-[14px] lg:text-[16px] text-white bg-[#100E19] px-[8px] py-[6px] rounded-lg cursor-pointer" >Login as Business </NavLink>
             </ul>
           </div>
 
@@ -100,11 +100,11 @@ const Navbaar = () => {
           <div className="lg:hidden bg-[#100E19] text-white shadow-md">
             <ul className="flex flex-col gap-3 px-4 py-4">
               
-                <Link to="Creators"  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Creators</Link>
                 <Link  className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Businesses</Link>
+                <Link to="Creators"  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Creators</Link>
                 <Link to="Features"  smooth={true}  duration={500}  className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Our Features</Link>
                 <Link to="Download"  smooth={true}  duration={500}  className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Download App</Link>
-                <NavLink to="https://socialmeadmin.testenvapp.com/auth"  className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Login as Business</NavLink>
+                <NavLink to="http://admin.lynkup.co.in"  className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Login as Business</NavLink>
 
 
                 

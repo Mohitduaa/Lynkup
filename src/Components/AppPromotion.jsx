@@ -60,7 +60,7 @@ const AppPromotion = () => {
             >
               <img className="-rotate-[10deg] -ml-2 mb-2" src="images/right (2).png" alt="" />
               <h1 className="absolute -ml-5 md:-ml-12 text-white font-poppins font-medium">
-                100% free for creators
+                100% free for creators and restaurants
               </h1>
             </motion.div>
           </div>

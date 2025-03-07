@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="bg-[#272530] text-white px-6 py-8 md:px-12 md:py-5  ">
       <div className="flex flex-col gap-2 md:gap-5 md:flex-row  justify-around">
         <div>
-          <h1 className="font-bold text-2xl font-quicksand">Lynkup</h1>
+          <h1 className="font-bold text-2xl font-quicksand">LynkUp</h1>
           <p className="text-sm mt-4 font-Lexend">12/6, First Floor, Cabinet-VI, Metro Pillar 480-81, behind SBI Bank, <br /> Mathura Road, Mathura Road Faridabad, Faridabad, Haryana.</p>
         </div>
         <div>
@@ -32,7 +32,7 @@ const Footer = () => {
     </div>
         </div>
         <div className="flex flex-col flex-wrap gap-4 justify-center md:justify-end">
-          <Link to="https://socialmeadmin.testenvapp.com/auth" className="text-[#FDFDFD] font-quicksand hover:underline">Businesses </Link>
+          <Link to="http://admin.lynkup.co.in" className="text-[#FDFDFD] font-quicksand hover:underline">Businesses </Link>
           <Link href="#" className="text-[#FDFDFD] hover:underline font-quicksand">  Creators</Link>
          <p className="text-[#FDFDFD]"><Link to="/Faq" className="hover:underline font-quicksand">FAQs</Link></p>
         <p className="text-[#FDFDFD]"><Link to="/privacy" className="hover:underline font-quicksand">Terms and conditions </Link></p>

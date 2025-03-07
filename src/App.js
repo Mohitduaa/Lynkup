@@ -12,6 +12,7 @@ import Footer from './Components/Footer';
 import FAQS from './Components/FAQS';
 import Priviacyandcookies from './Components/Priviacyandcookies';
 import { Routes, Route } from "react-router-dom";
+import ResturantsCards from './Components/ResturantsCards';
 // import { Login } from './Components/Login';
 
 
@@ -20,7 +21,7 @@ function App() {
     <div className="App">
     <div className=''>
       <Routes>
-      <Route path={"/"} element={<><HeroSection/><Commitments/><Howitworks/><Cards/><Appfeatures/><AppPromotion/><Campain/></>}/>
+      <Route path={"/"} element={<><HeroSection/><Commitments/><Howitworks/><Cards/><ResturantsCards/><Appfeatures/><AppPromotion/><Campain/></>}/>
         <Route path="/privacy" element={<Priviacyandcookies/>} />
         <Route path="/Faq" element={<FAQS/>} />
 
