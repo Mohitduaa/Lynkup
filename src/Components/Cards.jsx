@@ -38,8 +38,8 @@ const cardData = [
 
 const Cards = () => {
   return (
-    <section name="Creators">
-      <div className="py-10  max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+    <section name="Creators" className="bg-[#272530]">
+      <div className="py-10  max-w-7xl mx-auto px-6 md:px-12 lg:px-20 ">
         
         {/* Heading */}
         <motion.div

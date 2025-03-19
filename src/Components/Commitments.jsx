@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Commitments = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center px-6 md:px-12 lg:px-20 py-16 gap-8 bg-[#272530] text-center lg:text-left">
+    <div className=" flex flex-col lg:flex-row justify-between items-center px-6 md:px-12 lg:px-20 py-16 gap-8 bg-[#272530] text-center lg:text-left">
       
       {/* Scroll Animation for Stats Section */}
       <motion.div 

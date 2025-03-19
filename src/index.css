@@ -11,4 +11,17 @@ body{
 html {
     scroll-behavior: smooth;
   }
+
+/* Add this in your global.css or component styles if not using Tailwind for bullets */
+.swiper-pagination-bullet {
+    background: #fff;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #100E19; 
+    opacity: 1;
+  }
+  
   

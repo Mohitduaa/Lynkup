@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <div className="h-[600px] md:h-[700px] lg:h-[800px] w-full relative overflow-hidden">
+    <div className="h-[600px] md:h-[650px] lg:h-[800px] w-full relative overflow-hidden">
       {/* Background Image with Zoom Effect */}
       <motion.div
         initial={{ scale: 1.2 }}
@@ -18,7 +18,7 @@ const HeroSection = () => {
       />
 
       {/* Content */}
-      <div className="relative flex justify-center md:justify-start items-center h-full px-4 md:px-12 lg:px-20">
+      <div className="relative  flex justify-center md:justify-start items-center h-full px-4 md:px-12 ">
         <motion.div
           initial={{ opacity: 0, y: 100 }} // Starts lower for a slower effect
           animate={{ opacity: 1, y: 0 }}

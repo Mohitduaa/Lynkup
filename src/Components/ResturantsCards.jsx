@@ -46,7 +46,7 @@ const cardData = [
 
 const ResturantsCards = () => {
   return (
-    <section name="Creators " className="bg-[#272530]">
+    <section name="Creators " className="bg-[#100E19]">
       <div className="py-10  max-w-7xl mx-auto px-6 md:px-12 lg:px-20 ">
         
         {/* Heading */}
