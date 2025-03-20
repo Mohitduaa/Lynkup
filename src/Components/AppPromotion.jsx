@@ -5,7 +5,6 @@ const AppPromotion = () => {
   return (
     <section name="Download">
       <div className="py-10 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-evenly bg-[#272530]">
-        {/* Text Section */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -18,7 +17,6 @@ const AppPromotion = () => {
             <span className="text-[#653FCC]">with one simple app</span>
           </h1>
 
-          {/* App Store Buttons */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -35,7 +33,6 @@ const AppPromotion = () => {
           </motion.div>
         </motion.div>
 
-        {/* Mobile Image Section */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -50,7 +47,6 @@ const AppPromotion = () => {
               className="md:w-full md:h-[600px]"
             />
 
-            {/* Arrow & Tagline */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}

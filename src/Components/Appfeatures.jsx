@@ -10,7 +10,7 @@ const features = [
   {
     img: "images/4.svg",
     title: "Verified Instagram API Integration",
-    description: "Safe and secure authentication.",
+    description: "No hassle of verifying the creator's credentials",
   },
   {
     img: "images/3.svg",
@@ -35,7 +35,6 @@ const Appfeatures = () => {
       <div className="py-1">
         <div className="flex flex-col gap-8 md:gap-0 md:flex-row justify-between items-center px-10 md:mx-36 py-10 my-10 rounded-md">
           
-          {/* Left Section */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -60,7 +59,6 @@ const Appfeatures = () => {
             />
           </motion.div>
 
-          {/* Right Section - Features */}
           <div className="flex flex-col gap-6 md:gap-10">
             {features.map((feature, index) => (
               <motion.div

@@ -1,133 +1,47 @@
-// import React from "react";
-// import { FaRegistered } from 'react-icons/fa';
-
-// const Resturant = () => {
-//   return (
-//     <div className="bg-[#272530] py-20">
-//       <div className="text-2xl md:text-4xl lg:text-5xl text-center font-quicksand font-bold">
-//         <h1>How to use LynkUp for restaurants?</h1>
-//       </div>
-//       <div className="flex flex-wrap justify-center items-start gap-10 pt-10">
-//       <div className="bg-[#100E19] px-7 py-8 rounded-lg">
-//       <FaRegistered  className=""/>
-//           <h1 className="mb-2 text-xl">Sign up for free on our platform</h1>
-//           <div className="w-[350px]">
-//           <p  className="">Share the experience you’re providing, whether it’s a complimentary meal, special offer, tasting event, or unique dining experience.</p>
-//           </div>
-//         </div>
-//         <div className="bg-[#100E19] px-7 py-8 rounded-lg">
-//           <FaRegistered  className=""/>
-//           <h1 className="mb-2 text-xl">Sign up for free on our platform</h1>
-//           <div className="w-[350px]">
-//           <p  className="">Share the experience you’re providing, whether it’s a complimentary meal, special offer, tasting event, or unique dining experience.</p>
-//           </div>
-//         </div>
-//         <div className="bg-[#100E19] px-7 py-8 rounded-lg">
-//           <FaRegistered  className=""/>
-//           <h1 className="mb-2 text-xl">Sign up for free on our platform</h1>
-//           <div className="w-[350px]">
-//           <p  className="">Share the experience you’re providing, whether it’s a complimentary meal, special offer, tasting event, or unique dining experience.</p>
-//           </div>
-//         </div>
-//         <div className="bg-[#100E19] px-7 py-8 rounded-lg">
-//           <FaRegistered  className=""/>
-//           <h1 className="mb-2 text-xl">Sign up for free on our platform</h1>
-//           <div className="w-[350px]">
-//           <p  className="">Share the experience you’re providing, whether it’s a complimentary meal, special offer, tasting event, or unique dining experience.</p>
-//           </div>
-//         </div>
-//         <div className="bg-[#100E19] px-7 py-8 rounded-lg">
-//           <FaRegistered  className=""/>
-//           <h1 className="mb-2 text-xl">Sign up for free on our platform</h1>
-//           <div className="w-[350px]">
-//           <p  className="">Share the experience you’re providing, whether it’s a complimentary meal, special offer, tasting event, or unique dining experience.</p>
-//           </div>
-//         </div>
-        
-        
-        
-        
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Resturant;
 import React from "react";
-import { FaRegistered } from 'react-icons/fa';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination, Autoplay } from 'swiper/modules';
 
-const Resturant = () => {
-  const data = [
-    {
-      title: "Sign up for free on our platform",
-      desc: "Share the experience you’re providing, whether it’s a complimentary meal, special offer, tasting event, or unique dining experience."
-    },
-    // You can duplicate or modify data to add more cards
-    {
-      title: "Sign up for free on our platform",
-      desc: "Share the experience you’re providing, whether it’s a complimentary meal, special offer, tasting event, or unique dining experience."
-    },
-    {
-      title: "Sign up for free on our platform",
-      desc: "Share the experience you’re providing, whether it’s a complimentary meal, special offer, tasting event, or unique dining experience."
-    },
-    {
-      title: "Sign up for free on our platform",
-      desc: "Share the experience you’re providing, whether it’s a complimentary meal, special offer, tasting event, or unique dining experience."
-    },
-    {
-      title: "Sign up for free on our platform",
-      desc: "Share the experience you’re providing, whether it’s a complimentary meal, special offer, tasting event, or unique dining experience."
-    },
-  ];
+const steps = [
+  {
+    number: "1",
+    title: "List an Offer",
+    desc: "Share the experience you’re offering, whether it’s a complimentary meal, special offer, tasting event, or exclusive dining experience."
+  },
+  {
+    number: "2",
+    title: "Select Creators",
+    desc: "Accept or reject creator requests based on their alignment with your brand, engagement, and content style."
+  },
+  {
+    number: "3",
+    title: "Deliver the Experience",
+    desc: "Host the creator, provide the agreed-upon experience, and let them capture the moment."
+  },
+  {
+    number: "4",
+    title: "Grow with Content",
+    desc: "Gain authentic, high-quality content that boosts your visibility and attracts new customers."
+  },
+];
 
+const RestaurantSteps = () => {
   return (
-    <div className="bg-[#272530] py-20">
-      <div className="text-2xl md:text-4xl lg:text-5xl text-center font-quicksand font-bold">
-        <h1>How to use LynkUp for restaurants?</h1>
-      </div>
-
-      <div className="pt-10 px-5 md:px-20 relative">
-  <Swiper
-    modules={[Pagination, Autoplay]}
-    spaceBetween={30}
-    slidesPerView={1}
-    pagination={{
-      clickable: true,
-      el: '.custom-pagination', // Target custom element
-    }}
-    autoplay={{ delay: 3000 }}
-    breakpoints={{
-      768: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
-      }
-    }}
-  >
-    {data.map((item, index) => (
-      <SwiperSlide key={index}>
-        <div className="bg-[#100E19] px-7 py-8 rounded-lg">
-          <FaRegistered className="text-white text-2xl mb-4" />
-          <h1 className="mb-2 text-xl text-white">{item.title}</h1>
-          <div className="w-[300px] md:w-[350px]">
-            <p className="text-white">{item.desc}</p>
+    <div className="bg-[#272530] py-16 px-4 md:px-20">
+      <h2 className="text-center text-white text-3xl md:text-4xl font-bold mb-12 font-quicksand ">
+        How to use LynkUp for restaurants?
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        {steps.map((step, index) => (
+          <div key={index} className="flex flex-col items-center text-center">
+            <div className="w-20 h-20 border-2 border-white rounded-full flex items-center justify-center mb-5">
+              <span className="text-white text-3xl font-bold">{step.number}</span>
+            </div>
+            <h3 className="text-white text-lg font-bold mb-3 font-quicksand ">{step.title}</h3>
+            <p className="text-gray-300 max-w-[250px] font-Lexend font-extralight">{step.desc}</p>
           </div>
-        </div>
-      </SwiperSlide>
-    ))}
-  </Swiper>
-
-  {/* Custom Pagination Dots Below Slider */}
-  <div className="custom-pagination mt-6 flex justify-center space-x-2 "></div>
-</div>
+        ))}
+      </div>
     </div>
   );
 };
 
-export default Resturant;
+export default RestaurantSteps;

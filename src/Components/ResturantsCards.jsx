@@ -7,7 +7,7 @@ const cardData = [
     title: "Completely free",
     description:
       "Gain high-quality social media exposure for free",
-    image: "images/card1.png",
+    image: "images/resturant1.jpg",
     direction: -50 // Left se aaye
   },
   {

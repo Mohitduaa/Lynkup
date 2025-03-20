@@ -17,39 +17,6 @@ const Priviacyandcookies = () => {
       <p className="mb-4 font-Lexend font-extralight">
       Welcome to LynkUp! By accessing or using the LynkUp app ("the App"), you agree to comply with and be bound by these Terms and Conditions ("Terms"). If you do not agree with these Terms, please discontinue using the App immediately.
       </p>
-      {/* <h3 className="text-xl font-poppins font-semibold mt-4 mb-3 ">a. Information You Provide Directly</h3>
-      <ul className="list-disc pl-10 mb-4">
-        <li className=" font-Lexend font-extralight">
-          <strong>Account Information:</strong> When you sign up using Facebook Login, we collect your name, email address, profile picture, and other information you choose to share from your Facebook account.
-        </li>
-        <li>
-          <strong>Profile Information:</strong> If you are an influencer, we may collect additional information such as your social media handles, follower counts, engagement metrics, and areas of expertise. If you are a business, we may collect information about your company, industry, and campaign requirements.
-        </li>
-        <li>
-          <strong>Communication Data:</strong> Any messages, comments, or other communications you send through the App.
-        </li>
-      </ul>
-
-      <h3 className="text-lg font-semibold mt-4 mb-3">b. Information Collected Automatically</h3>
-      <ul className="list-disc pl-10 mb-3">
-        <li>
-          <strong>Usage Data:</strong> We collect information about how you interact with the App, such as the features you use, the time spent on the App, and your device information (e.g., device type, operating system, IP address).
-        </li>
-        <li>
-          <strong>Cookies and Tracking Technologies:</strong> We may use cookies, web beacons, and similar technologies to collect information about your activity on the App.
-        </li>
-      </ul>
-
-      <h3 className="text-lg font-semibold mt-4 mb-4">c. Information from Third Parties</h3>
-      <ul className="list-disc pl-10 mb-4">
-        <li>
-          <strong>Facebook Login:</strong> When you log in using Facebook, we receive information from Facebook as permitted by your Facebook account settings. This may include your public profile, friend list, and email address.
-        </li>
-        <li>
-          <strong>Analytics Providers:</strong> We may receive information from third-party analytics providers to help us understand how users interact with the App.
-        </li>
-      </ul> */}
-
       <h2 className="text-2xl font-poppins font-semibold mt-6 mb-1">2.Definitions</h2>
       <ul className="list-disc pl-10 mb-3">
         <li><strong>"App":</strong> The LynkUp mobile application and its associated services.</li>

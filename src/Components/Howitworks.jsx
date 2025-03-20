@@ -41,7 +41,6 @@ const Howitworks = () => {
   return (
     <div className="py-10 px-6 md:px-60">
       
-      {/* Heading Animation */}
       <motion.div 
         initial={{ opacity: 0, y: 50 }} 
         whileInView={{ opacity: 1, y: 0 }} 
@@ -54,7 +53,6 @@ const Howitworks = () => {
         </h2>
       </motion.div>
 
-      {/* Steps Animation */}
       <div className="md:mx-20 grid md:grid-cols-2 gap-6">
         {steps.map((step, index) => (
           <motion.div
