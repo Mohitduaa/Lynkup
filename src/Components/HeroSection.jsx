@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-<div className="w-full relative overflow-hidden max-md:pt-[80px]">
+<div className="w-full relative overflow-hidden max-lg:pt-[80px]">
 {/* For Mobile & Tablet (Same Image) */}
       <div className="block lg:hidden">
         {/* Text Part */}
