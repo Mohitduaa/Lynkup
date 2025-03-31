@@ -27,7 +27,7 @@ const AppPromotion = () => {
             className="flex justify-center lg:justify-start gap-4"
           >
             <div className="text-white flex items-center py-3 px-2 rounded-lg hover:bg-gray-800 transition">
-              <NavLink to="https://apps.apple.com/in/app/lynkup-amplify-your-brand/id6740088464"><img src="images/Appstore IOS.png" alt="App Store" className="h-10" /></NavLink>
+              <NavLink to="https://apps.apple.com/in/app/lynkup-amplify-your-brand/id6740088464"><img src="images/Appstore IOS.png" alt="App Store" className="h-10 w-full" /></NavLink>
             </div>
             <div className="text-white flex items-center py-3 px-2 rounded-lg hover:bg-gray-800 transition">
               <NavLink to="https://play.google.com/store/apps/details?id=com.lynkupapplication.android&pcampaignid=web_share"><img src="images/playstore.png" alt="Google Play" className="h-10 w-full" /></NavLink>
