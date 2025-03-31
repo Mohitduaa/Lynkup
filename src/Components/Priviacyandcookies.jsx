@@ -9,7 +9,7 @@ const PrivacyAndCookies = () => {
   }, [location.pathname]);
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
       <div className="prose prose-lg max-w-none">
         <h1 className="text-3xl sm:text-4xl font-bold text-white mb-6">
           Terms and Conditions for LynkUp App
@@ -159,15 +159,15 @@ const PrivacyAndCookies = () => {
               LynkUp is not responsible for damages arising from the use or inability to use the App, including issues with restaurants or third-party services.
             </p>
             
-            <h3 className="text-xl font-semibold text-white mt-4 mb-2">12.1 Responsibility for Restaurant and Cloud Kitchen Selection</h3>
             <ul className="list-disc pl-5 space-y-2 text-white">
-              <li>LynkUp provides a platform for users to discover and engage with restaurants and cloud kitchens. However, we are not responsible for the businesses you choose to interact with. Any issues, disputes, or concerns that arise between you and a restaurant or cloud kitchen are solely between you and the respective establishment. LynkUp holds no liability for their actions, policies, or services.</li>
+            <li className="text-xl font-semibold text-white mt-4 mb-2">12.1 Responsibility for Restaurant and Cloud Kitchen Selection</li>
             </ul>
+            <h2>LynkUp provides a platform for users to discover and engage with restaurants and cloud kitchens. However, we are <strong> not responsible </strong> for the businesses you choose to interact with. Any issues, disputes, or concerns that arise between you and a restaurant or cloud kitchen are <strong> solely between you and the respective establishment.</strong> LynkUp holds <strong> no liability </strong> for their actions, policies, or services.</h2>
 
-            <h3 className="text-xl font-semibold text-white mt-4 mb-2">12.2 Food Quality and Health Concerns</h3>
             <ul className="list-disc pl-5 space-y-2 text-white">
-              <li>LynkUp does not guarantee the quality, safety, or hygiene standards of the food provided by restaurants and cloud kitchens listed on our App. If you experience any adverse health effects, foodborne illnesses, or dissatisfaction with food quality, the responsibility lies solely with the restaurant or cloud kitchen. LynkUp is not accountable for any health-related concerns or damages resulting from consuming food obtained through our platform.</li>
+            <li className="text-xl font-semibold text-white mt-4 mb-2">12.2 Food Quality and Health Concerns</li>
             </ul>
+              <h2>LynkUp <strong> does not guarantee </strong> the quality, safety, or hygiene standards of the food provided by restaurants and cloud kitchens listed on our App. If you experience any adverse health effects, foodborne illnesses, or dissatisfaction with food quality, the responsibility lies <strong>solely with the restaurant or cloud kitchen.</strong> LynkUp is <strong> not accountable </strong> for any health-related concerns or damages resulting from consuming food obtained through our platform.</h2>
           </section>
 
           <section>
@@ -188,7 +188,7 @@ const PrivacyAndCookies = () => {
             <h2 className="text-2xl font-semibold text-white mb-3">15. Contact Us</h2>
             <ul className="list-disc pl-5 space-y-2 text-white">
               <li>For any questions or concerns, contact us at:</li>
-              <li>Email: lynkupindia@gmail.com</li>
+              <li> <strong>Email:</strong> lynkupindia@gmail.com</li>
             </ul>
           </section>
         </div>
