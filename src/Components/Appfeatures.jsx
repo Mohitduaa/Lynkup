@@ -31,9 +31,9 @@ const features = [
 
 const Appfeatures = () => {
   return (
-    <section name="Features">
+    <section className="bg-[#272530]" name="Features">
       <div className="py-1">
-        <div className="flex flex-col gap-8 md:gap-0 md:flex-row justify-between items-center px-10 md:mx-36 py-10 my-10 rounded-md">
+        <div className="flex flex-col gap-8 md:gap-5 lg:flex-row lg:justify-between items-start lg:items-center  px-10 lg:px-10 lg:mx-32 md:py-10 my-10 rounded-md  ">
           
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -59,7 +59,7 @@ const Appfeatures = () => {
             />
           </motion.div>
 
-          <div className="flex flex-col gap-6 md:gap-10">
+          <div className="flex flex-col  px-6  lg:px-0 gap-6 md:gap-10 ">
             {features.map((feature, index) => (
               <motion.div
                 key={index}
@@ -69,7 +69,7 @@ const Appfeatures = () => {
                 transition={{ duration: 0.8, delay: index * 0.2 }}
                 className="flex gap-3 items-center"
               >
-                <div className="text-[#FDFDFD] bg-[#653FCC] p-2 rounded-lg">
+                <div className="text-[#FDFDFD] bg-[#653FCC] p-2  rounded-lg">
                   <img src={feature.img} alt="" />
                 </div>
                 <div>

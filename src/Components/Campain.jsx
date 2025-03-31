@@ -8,7 +8,7 @@ const Campaign = () => {
       whileInView={{ opacity: 1, y: 0 }} // Animates when in view
       transition={{ duration: 2, ease: "easeOut" }}
       viewport={{ once: true }} // Animation triggers only once
-      className="py-16 text-center px-6 md:px-20"
+      className="py-16 text-center px-6 md:px-20 bg-[#272530]"
     >
       <motion.h1
         initial={{ opacity: 0, y: 50 }}

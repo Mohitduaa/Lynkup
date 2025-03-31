@@ -1,10 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 const AppPromotion = () => {
   return (
     <section name="Download">
-      <div className="py-10 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-evenly bg-[#272530]">
+      <div className="py-10 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-evenly ">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -25,10 +27,10 @@ const AppPromotion = () => {
             className="flex justify-center lg:justify-start gap-4"
           >
             <div className="text-white flex items-center py-3 px-2 rounded-lg hover:bg-gray-800 transition">
-              <img src="images/Appstore IOS.png" alt="App Store" className="h-10" />
+              <NavLink to="https://apps.apple.com/in/app/lynkup-amplify-your-brand/id6740088464"><img src="images/Appstore IOS.png" alt="App Store" className="h-10" /></NavLink>
             </div>
             <div className="text-white flex items-center py-3 px-2 rounded-lg hover:bg-gray-800 transition">
-              <img src="images/playstore.png" alt="Google Play" className="h-10 w-full" />
+              <NavLink to="https://play.google.com/store/apps/details?id=com.lynkupapplication.android&pcampaignid=web_share"><img src="images/playstore.png" alt="Google Play" className="h-10 w-full" /></NavLink>
             </div>
           </motion.div>
         </motion.div>

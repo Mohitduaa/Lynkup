@@ -25,7 +25,7 @@ const steps = [
 
 const RestaurantSteps = () => {
   return (
-    <div className="bg-[#272530] py-16 px-4 md:px-20">
+    <div className=" py-16 px-4 md:px-20">
       <h2 className="text-center text-white text-3xl md:text-4xl font-bold mb-12 font-quicksand ">
         How to use LynkUp for restaurants?
       </h2>

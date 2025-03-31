@@ -39,42 +39,44 @@ const steps = [
 
 const Howitworks = () => {
   return (
-    <div className="py-10 px-6 md:px-60">
-      
-      <motion.div 
-        initial={{ opacity: 0, y: 50 }} 
-        whileInView={{ opacity: 1, y: 0 }} 
-        viewport={{ once: true, amount: 0.2 }} 
-        transition={{ duration: 0.8 }}
-        className="mb-6"
-      >
-        <h2 className="text-2xl md:text-4xl lg:text-5xl text-center font-quicksand font-bold">
-          How it works
-        </h2>
-      </motion.div>
+    <section name="Creators">
+      <div className="py-10 px-6 md:px-20 lg:px-60">
+        
+        <motion.div 
+          initial={{ opacity: 0, y: 50 }} 
+          whileInView={{ opacity: 1, y: 0 }} 
+          viewport={{ once: true, amount: 0.2 }} 
+          transition={{ duration: 0.8 }}
+          className="mb-6"
+        >
+          <h2 className="text-2xl md:text-3xl lg:text-5xl text-center font-quicksand font-bold">
+            How it works
+          </h2>
+        </motion.div>
 
-      <div className="md:mx-20 grid md:grid-cols-2 gap-6">
-        {steps.map((step, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 50 }} 
-            whileInView={{ opacity: 1, y: 0 }} 
-            viewport={{ once: true, amount: 0.2 }} 
-            transition={{ duration: 0.8, delay: index * 0.2 }}
-            className={`relative bg-[#272530] p-6 rounded-xl shadow-lg flex flex-col gap-2 ${step.size}`}
-          >
-            <span className="text-6xl">{step.icon}</span>
-            <h3 className="text-xl font-bold font-quicksand">{step.title}</h3>
-            <h4 className='text-sm'>{step.subheading}</h4>
-            <p className="text-sm font-Lexend font-extralight mb-2">{step.description}</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {steps.map((step, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 50 }} 
+              whileInView={{ opacity: 1, y: 0 }} 
+              viewport={{ once: true, amount: 0.2 }} 
+              transition={{ duration: 0.8, delay: index * 0.2 }}
+              className={`relative bg-[#272530] p-6 rounded-xl shadow-lg flex flex-col gap-2 ${step.size}`}
+            >
+              <span className="text-5xl md:text-6xl">{step.icon}</span>
+              <h3 className="text-lg md:text-xl font-bold font-quicksand">{step.title}</h3>
+              <h4 className='text-sm md:text-base'>{step.subheading}</h4>
+              <p className="text-sm md:text-base font-Lexend font-extralight mb-2">{step.description}</p>
 
-            <div className="absolute -top-3 right-3 bg-[#653FCC] text-white font-bold text-sm w-10 h-10 flex items-center justify-center rounded-full">
-              {step.id}
-            </div>
-          </motion.div>
-        ))}
+              <div className="absolute -top-3 right-3 bg-[#653FCC] text-white font-bold text-sm w-10 h-10 flex items-center justify-center rounded-full">
+                {step.id}
+              </div>
+            </motion.div>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
