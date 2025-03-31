@@ -36,7 +36,7 @@ const RestaurantSteps = () => {
               <span className="text-white text-3xl font-bold">{step.number}</span>
             </div>
             <h3 className="text-white text-lg font-bold mb-3 font-quicksand ">{step.title}</h3>
-            <p className="text-gray-300 max-w-[250px] font-Lexend font-extralight">{step.desc}</p>
+            <p className="text-gray-300 lg:max-w-[250px] font-Lexend font-extralight">{step.desc}</p>
           </div>
         ))}
       </div>
