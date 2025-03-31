@@ -30,11 +30,11 @@ const PrivacyAndCookies = () => {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">2. Definitions</h2>
             <ul className="list-disc pl-5 space-y-2 text-white">
-              <li><strong>"App":</strong> The LynkUp mobile application and its associated services.</li>
-              <li><strong>"User":</strong> Any individual who registers and uses the App.</li>
-              <li><strong>"Creator":</strong> A User who has linked their Instagram account to the App and is eligible to receive offers from restaurants.</li>
-              <li><strong>"Restaurant":</strong> Any business registered on the App offering products or services to Creators.</li>
-              <li><strong>"Instagram API":</strong> The official API provided by Instagram for integrating third-party services with Instagram profiles.</li>
+              <li><strong>"App": </strong> The LynkUp mobile application and its associated services.</li>
+              <li><strong>"User": </strong> Any individual who registers and uses the App.</li>
+              <li><strong>"Creator": </strong> A User who has linked their Instagram account to the App and is eligible to receive offers from restaurants.</li>
+              <li><strong>"Restaurant": </strong> Any business registered on the App offering products or services to Creators.</li>
+              <li><strong>"Instagram API": </strong> The official API provided by Instagram for integrating third-party services with Instagram profiles.</li>
             </ul>
           </section>
 
@@ -59,7 +59,7 @@ const PrivacyAndCookies = () => {
             <h2 className="text-2xl font-semibold text-white mb-3">5. Offers from Restaurants</h2>
             <ul className="list-disc pl-5 space-y-2 text-white">
               <li>By linking your Instagram account, you gain access to offers from restaurants and businesses listed on the App. Offers may include complimentary items, discounts, or event invitations.</li>
-              <li>Details of each offer, including its requirements, are outlined in the "We're Offering" section of the booking.</li>
+              <li>Details of each offer, including its requirements, are outlined in the <strong> "We're Offering" </strong> section of the booking.</li>
               <li>By booking an offer, you agree to deliver the required content (e.g., Instagram posts, stories, or other promotional materials) within the specified time frame, provided the restaurant accepts your booking.</li>
             </ul>
           </section>
@@ -180,7 +180,7 @@ const PrivacyAndCookies = () => {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">14. Governing Law</h2>
             <ul className="list-disc pl-5 space-y-2 text-white">
-              <li>These Terms are governed by the laws of India. Any disputes are subject to the exclusive jurisdiction of the courts in India.</li>
+              <li>These Terms are governed by the laws of India. Any disputes are subject to the <strong> exclusive jurisdiction of the courts in India.</strong></li>
             </ul>
           </section>
 

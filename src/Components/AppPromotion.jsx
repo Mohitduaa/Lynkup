@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const AppPromotion = () => {
   return (
     <section name="Download">
-      <div className="py-10 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-evenly ">
+      <div className="py-16 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-evenly ">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -44,7 +44,7 @@ const AppPromotion = () => {
         >
           <div>
             <img
-              src="images/mobile.png"
+              src="images/mobilenew.png"
               alt="App Mockup 2"
               className="md:w-full md:h-[600px]"
             />

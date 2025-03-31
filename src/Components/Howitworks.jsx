@@ -40,7 +40,7 @@ const steps = [
 const Howitworks = () => {
   return (
     <section name="Creators">
-      <div className="py-10 px-6 md:px-20 lg:px-60">
+      <div className="py-16 px-6 md:px-20 lg:px-60">
         
         <motion.div 
           initial={{ opacity: 0, y: 50 }} 
