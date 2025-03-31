@@ -1,5 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const steps = [
     {
@@ -38,8 +40,19 @@ const steps = [
 ];
 
 const Howitworks = () => {
-  return (
-    <section id="Creators">
+  const location = useLocation();
+
+useEffect(() => {
+  const params = new URLSearchParams(location.search);
+  const scrollTo = params.get("scrollTo");
+  if (scrollTo === "Creators") {
+    setTimeout(() => {
+      document.getElementById("Creators")?.scrollIntoView({ behavior: "smooth" });
+    }, 100); 
+  }
+}, [location]);
+      return (
+        <section id="Creators">
       <div className="py-16 px-6 md:px-20 lg:px-60">
         
         <motion.div 

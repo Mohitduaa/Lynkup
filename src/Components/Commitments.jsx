@@ -1,7 +1,21 @@
 import React from 'react';
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 import { motion } from 'framer-motion';
 
 const Commitments = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const scrollTo = params.get("scrollTo");
+    if (scrollTo === "businesses") {
+      setTimeout(() => {
+        document.getElementById("businesses")?.scrollIntoView({ behavior: "smooth" });
+      }, 100); // Delay taake page load ho jaye pehle
+    }
+  }, [location]);
   return (
     <section id="businesses">
       <div className="flex flex-col lg:flex-row justify-between items-center px-6 md:px-12 lg:px-20 py-16 gap-8 bg-[#272530] text-center lg:text-left">

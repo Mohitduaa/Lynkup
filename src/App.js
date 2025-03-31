@@ -16,8 +16,8 @@ import ResturantsCards from './Components/ResturantsCards';
 import Resturant from './Components/Resturant';
 // import { Login } from './Components/Login';
 
-
 function App() {
+  
   return (
     <div className="App">
     <div className=''>

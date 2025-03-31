@@ -2,8 +2,21 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { NavLink } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const AppPromotion = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const scrollTo = params.get("scrollTo");
+    if (scrollTo === "Download") {
+      setTimeout(() => {
+        document.getElementById("Download")?.scrollIntoView({ behavior: "smooth" });
+      }, 100); 
+    }
+  }, [location]);
   return (
     <section id="Download">
       <div className="py-16 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-evenly ">

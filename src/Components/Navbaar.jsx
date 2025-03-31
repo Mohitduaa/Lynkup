@@ -2,11 +2,44 @@ import React, { useState, useEffect } from "react";
 import HeroSection from "./HeroSection"; 
 import { Link } from "react-scroll";
 import {  NavLink, Link as RouterLink, useParams } from "react-router-dom";  
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Navbaar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const {pathname} = useParams()
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    if (location.pathname === "/") {
+      document.getElementById("businesses")?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      navigate("/?scrollTo=businesses"); 
+    }
+  };
+  const Features = () => {
+    if (location.pathname === "/") {
+      document.getElementById("Features")?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      navigate("/?scrollTo=Features"); 
+    }
+  };
+  const Creators = () => {
+    if (location.pathname === "/") {
+      document.getElementById("Creators")?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      navigate("/?scrollTo=Features"); 
+    }
+  };
+  const Download = () => {
+    if (location.pathname === "/") {
+      document.getElementById("Download")?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      navigate("/?scrollTo=Features"); 
+    }
+  };
+  
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -40,10 +73,10 @@ const Navbaar = () => {
 
           <div className="hidden lg:block">
             <ul className="flex gap-3">
-              <a href={ pathname ==="/" ? "#businesses" : "/#businesses"}  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer">Businesses</a>
-              <a href={ pathname ==="/" ? "#Features" :"/#Features"}  smooth={true}  duration={500}  className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer">Our Features</a>
-              <a href={ pathname ==="/" ? "#Download" :"/#Download"}  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer"> Download App</a>
-              <a href={ pathname ==="/" ? "#Creators" :"/#Creators"}  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer ">Creators</a>
+            <button onClick={handleClick} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19] px-[8px] py-[4px] rounded-lg cursor-pointer">Businesses</button>              
+            <button onClick={Features}  smooth={true}  duration={500}  className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer">Our Features</button>
+              <button onClick={Download}  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer"> Download App</button>
+              <button onClick={Creators}  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer ">Creators</button>
               <NavLink to="http://admin.lynkup.co.in" className="font-normal font-quicksand text-[14px] lg:text-[16px] text-white bg-[#100E19] px-[8px] py-[6px] rounded-lg cursor-pointer" >Login as Business </NavLink>
             </ul>
           </div>
@@ -83,11 +116,11 @@ const Navbaar = () => {
           <div className="lg:hidden bg-[#100E19] text-white shadow-md">
             <ul className="flex flex-col gap-3 px-4 py-4">
               
-                <Link to="Businesses" smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Businesses</Link>
-                <Link to="Features"  smooth={true}  duration={500}  className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Our Features</Link>
-                <Link to="Download"  smooth={true}  duration={500}  className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Download App</Link>
-                <Link to="Creators"  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Creators</Link>
-                <NavLink to="http://admin.lynkup.co.in"  className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Login as Business</NavLink>
+            <button onClick={handleClick} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-white px-[8px] py-[4px] rounded-lg cursor-pointer text-start">Businesses</button>              
+            <button onClick={Features}  smooth={true}  duration={500}  className="font-normal font-quicksand text-[14px] lg:text-[17px] text-white  px-[8px] py-[4px] rounded-lg cursor-pointer text-start">Our Features</button>
+              <button onClick={Download}  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-white  px-[8px] py-[4px] rounded-lg cursor-pointer text-start"> Download App</button>
+              <button onClick={Creators}  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-white  px-[8px] py-[4px] rounded-lg cursor-pointer text-start">Creators</button>
+              <NavLink to="http://admin.lynkup.co.in" className="font-normal font-quicksand text-[14px] lg:text-[16px] text-white  px-[8px] py-[6px] rounded-lg cursor-pointer text-start" >Login as Business </NavLink>
 
 
                 

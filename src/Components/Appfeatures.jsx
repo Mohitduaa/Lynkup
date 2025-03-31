@@ -1,5 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
+
 
 const features = [
   {
@@ -30,6 +34,17 @@ const features = [
 ];
 
 const Appfeatures = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const scrollTo = params.get("scrollTo");
+    if (scrollTo === "Features") {
+      setTimeout(() => {
+        document.getElementById("Features")?.scrollIntoView({ behavior: "smooth" });
+      }, 100); 
+    }
+  }, [location]);
   return (
     <section className="bg-[#272530]" id="Features">
       <div className="py-1">
