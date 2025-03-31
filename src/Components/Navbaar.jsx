@@ -41,9 +41,9 @@ const Navbaar = () => {
           <div className="hidden lg:block">
             <ul className="flex gap-3">
               <Link to="Businesses" smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer">Businesses</Link>
-              <Link to="Creators"  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer ">Creators</Link>
               <Link to="Features"  smooth={true}  duration={500}  className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer">Our Features</Link>
               <Link to="Download"  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer"> Download App</Link>
+              <Link to="Creators"  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] lg:text-[17px] text-[#100E19]  px-[8px] py-[4px] rounded-lg cursor-pointer ">Creators</Link>
               <NavLink to="http://admin.lynkup.co.in" className="font-normal font-quicksand text-[14px] lg:text-[16px] text-white bg-[#100E19] px-[8px] py-[6px] rounded-lg cursor-pointer" >Login as Business </NavLink>
             </ul>
           </div>
@@ -84,9 +84,9 @@ const Navbaar = () => {
             <ul className="flex flex-col gap-3 px-4 py-4">
               
                 <Link to="Businesses" smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Businesses</Link>
-                <Link to="Creators"  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Creators</Link>
                 <Link to="Features"  smooth={true}  duration={500}  className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Our Features</Link>
                 <Link to="Download"  smooth={true}  duration={500}  className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Download App</Link>
+                <Link to="Creators"  smooth={true}  duration={500} className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Creators</Link>
                 <NavLink to="http://admin.lynkup.co.in"  className="font-normal font-quicksand text-[14px] md:text-[17px] cursor-pointer">Login as Business</NavLink>
 
 

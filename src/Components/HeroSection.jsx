@@ -7,7 +7,7 @@ const HeroSection = () => {
 {/* For Mobile & Tablet (Same Image) */}
       <div className="block lg:hidden">
         {/* Text Part */}
-        <div className="relative flex justify-center items-center px-4 py-8">
+        <div className="relative flex justify-center items-center ">
           <motion.div
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}

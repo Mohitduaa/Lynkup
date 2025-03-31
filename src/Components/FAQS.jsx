@@ -96,14 +96,14 @@ const FAQS = () => {
               </span>
             </div>
             {openIndex === index && (
-              <p className="mt-3 text-sm lg:text-base font-Lexend text-white">
+              <p className="mt-3 text-sm lg:text-base font-Lexend text-gray-300">
                 {faq.answer}
               </p>
             )}
           </div>
         ))}
       </div>
-      <div className="divide-y divide-gray-200">
+      <div className="divide-y divide-gray-200 py-5">
         <h1 className="text-2xl lg:text-3xl font-bold font-poppins mb-8 py-5">
         Restaurants        </h1>
         {Resturant.map((faq, index) => (
@@ -124,7 +124,7 @@ const FAQS = () => {
               </span>
             </div>
             {openIndex === index && (
-              <p className="mt-3 text-sm lg:text-base font-Lexend text-white">
+              <p className="mt-3 text-sm lg:text-base font-Lexend text-gray-300">
                 {faq.answer}
               </p>
             )}

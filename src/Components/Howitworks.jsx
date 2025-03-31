@@ -50,7 +50,7 @@ const Howitworks = () => {
           className="mb-6"
         >
           <h2 className="text-2xl md:text-3xl lg:text-5xl text-center font-quicksand font-bold">
-            How it works
+            How it works for creator
           </h2>
         </motion.div>
 

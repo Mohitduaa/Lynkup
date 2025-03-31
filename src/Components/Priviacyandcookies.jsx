@@ -99,8 +99,8 @@ const PrivacyAndCookies = () => {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">9. Data Collection and Usage</h2>
             
-            <h3 className="text-xl font-semibold text-white mt-4 mb-2">Data Collected from Instagram</h3>
-            <ul className="list-disc pl-5 space-y-2 text-white">
+            <h3 className="text-xl font-semibold text-white mt-4 mb-2">9.1 Data Collected from Instagram</h3>
+            <ul className=" pl-5 space-y-2 text-white">
               <li>LynkUp collects data via the Instagram API, including:</li>
               <ul className="list-disc pl-5 mt-2 space-y-2">
                 <li>Profile details (e.g., username, bio, profile picture).</li>
@@ -109,28 +109,28 @@ const PrivacyAndCookies = () => {
               </ul>
             </ul>
 
-            <h3 className="text-xl font-semibold text-white mt-4 mb-2">Sharing Data with Restaurants</h3>
-            <ul className="list-disc pl-5 space-y-2 text-white">
+            <h3 className="text-xl font-semibold text-white mt-4 mb-2">9.2 Sharing Data with Restaurants</h3>
+            <ul className=" pl-5 space-y-2 text-white">
               <li>Relevant data is shared with restaurants for offer evaluation purposes. No data beyond what is necessary for collaboration is disclosed.</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-white mt-4 mb-2">Retention of Data</h3>
-            <ul className="list-disc pl-5 space-y-2 text-white">
+            <h3 className="text-xl font-semibold text-white mt-4 mb-2">9.3 Retention of Data</h3>
+            <ul className=" pl-5 space-y-2 text-white">
               <li>Data is retained only as long as necessary to facilitate offers and improve app functionality. Upon account deletion, all associated data will be permanently deleted, except where retention is legally required.</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-white mt-4 mb-2">Third-Party Data Access</h3>
-            <ul className="list-disc pl-5 space-y-2 text-white">
+            <h3 className="text-xl font-semibold text-white mt-4 mb-2">9.4 Third-Party Data Access</h3>
+            <ul className=" pl-5 space-y-2 text-white">
               <li>LynkUp does not sell or rent data to third parties. Authorized third-party access is restricted to operational needs under data protection agreements.</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-white mt-4 mb-2">Marketing Communications</h3>
-            <ul className="list-disc pl-5 space-y-2 text-white">
+            <h3 className="text-xl font-semibold text-white mt-4 mb-2">9.5 Marketing Communications</h3>
+            <ul className=" pl-5 space-y-2 text-white">
               <li>By using the App, you consent to receiving updates about offers and promotions. You may opt out by adjusting your settings.</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-white mt-4 mb-2">Accuracy of Data</h3>
-            <ul className="list-disc pl-5 space-y-2 text-white">
+            <h3 className="text-xl font-semibold text-white mt-4 mb-2">9.6 Accuracy of Data</h3>
+            <ul className=" pl-5 space-y-2 text-white">
               <li>You are responsible for providing accurate information. LynkUp is not liable for issues arising from inaccurate data.</li>
             </ul>
           </section>
@@ -148,7 +148,7 @@ const PrivacyAndCookies = () => {
 
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">11. Termination</h2>
-            <ul className="list-disc pl-5 space-y-2 text-white">
+            <ul className=" pl-5 space-y-2 text-white">
               <li>LynkUp reserves the right to suspend or terminate your account without prior notice for violations of these Terms or any inappropriate behavior.</li>
             </ul>
           </section>
@@ -172,23 +172,23 @@ const PrivacyAndCookies = () => {
 
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">13. Modifications to Terms</h2>
-            <ul className="list-disc pl-5 space-y-2 text-white">
+            <ul className=" pl-5 space-y-2 text-white">
               <li>LynkUp reserves the right to update these Terms at any time. Significant changes will be communicated via the App, and continued use signifies acceptance of the revised Terms.</li>
             </ul>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">14. Governing Law</h2>
-            <ul className="list-disc pl-5 space-y-2 text-white">
+            <ul className=" pl-5 space-y-2 text-white">
               <li>These Terms are governed by the laws of India. Any disputes are subject to the <strong> exclusive jurisdiction of the courts in India.</strong></li>
             </ul>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">15. Contact Us</h2>
-            <ul className="list-disc pl-5 space-y-2 text-white">
+            <ul className=" pl-5 space-y-2 text-white">
               <li>For any questions or concerns, contact us at:</li>
-              <li> <strong>Email:</strong> lynkupindia@gmail.com</li>
+              <h1> <strong>Email:</strong> lynkupindia@gmail.com</h1>
             </ul>
           </section>
         </div>

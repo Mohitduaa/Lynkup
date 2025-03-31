@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col flex-wrap gap-4 justify-center md:justify-end">
           <Link to="http://admin.lynkup.co.in" className="text-[#FDFDFD] font-quicksand hover:underline">Businesses </Link>
-          <Link href="#" className="text-[#FDFDFD] hover:underline font-quicksand">  Creators</Link>
+          {/* <Link href="#" className="text-[#FDFDFD] hover:underline font-quicksand">  Creators</Link> */}
          <p className="text-[#FDFDFD]"><Link to="/Faq" className="hover:underline font-quicksand">FAQs</Link></p>
         <p className="text-[#FDFDFD]"><Link to="/privacy" className="hover:underline font-quicksand">Terms and conditions </Link></p>
         </div>
