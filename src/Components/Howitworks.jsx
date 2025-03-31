@@ -39,7 +39,7 @@ const steps = [
 
 const Howitworks = () => {
   return (
-    <section name="Creators">
+    <section id="Creators">
       <div className="py-16 px-6 md:px-20 lg:px-60">
         
         <motion.div 
@@ -50,7 +50,7 @@ const Howitworks = () => {
           className="mb-6"
         >
           <h2 className="text-2xl md:text-3xl lg:text-5xl text-center font-quicksand font-bold">
-            How it works for creator
+            How it works for creator ?
           </h2>
         </motion.div>
 

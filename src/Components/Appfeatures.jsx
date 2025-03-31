@@ -31,7 +31,7 @@ const features = [
 
 const Appfeatures = () => {
   return (
-    <section className="bg-[#272530]" name="Features">
+    <section className="bg-[#272530]" id="Features">
       <div className="py-1">
         <div className="flex flex-col gap-8 md:gap-5 lg:flex-row lg:justify-between items-start lg:items-center  md:px-10 lg:px-10 lg:mx-32 md:py-10 my-10 rounded-md  ">
           

@@ -99,7 +99,7 @@ const PrivacyAndCookies = () => {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-3">9. Data Collection and Usage</h2>
             
-            <h3 className="text-xl font-semibold text-white mt-4 mb-2">9.1 Data Collected from Instagram</h3>
+            <li className="text-xl font-semibold text-white mt-4 mb-2">9.1 Data Collected from Instagram</li>
             <ul className=" pl-5 space-y-2 text-white">
               <li>LynkUp collects data via the Instagram API, including:</li>
               <ul className="list-disc pl-5 mt-2 space-y-2">
@@ -109,27 +109,27 @@ const PrivacyAndCookies = () => {
               </ul>
             </ul>
 
-            <h3 className="text-xl font-semibold text-white mt-4 mb-2">9.2 Sharing Data with Restaurants</h3>
+            <li className="text-xl font-semibold text-white mt-4 mb-2">9.2 Sharing Data with Restaurants</li>
             <ul className=" pl-5 space-y-2 text-white">
               <li>Relevant data is shared with restaurants for offer evaluation purposes. No data beyond what is necessary for collaboration is disclosed.</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-white mt-4 mb-2">9.3 Retention of Data</h3>
+            <li className="text-xl font-semibold text-white mt-4 mb-2">9.3 Retention of Data</li>
             <ul className=" pl-5 space-y-2 text-white">
               <li>Data is retained only as long as necessary to facilitate offers and improve app functionality. Upon account deletion, all associated data will be permanently deleted, except where retention is legally required.</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-white mt-4 mb-2">9.4 Third-Party Data Access</h3>
+            <li className="text-xl font-semibold text-white mt-4 mb-2">9.4 Third-Party Data Access</li>
             <ul className=" pl-5 space-y-2 text-white">
               <li>LynkUp does not sell or rent data to third parties. Authorized third-party access is restricted to operational needs under data protection agreements.</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-white mt-4 mb-2">9.5 Marketing Communications</h3>
+            <li className="text-xl font-semibold text-white mt-4 mb-2">9.5 Marketing Communications</li>
             <ul className=" pl-5 space-y-2 text-white">
               <li>By using the App, you consent to receiving updates about offers and promotions. You may opt out by adjusting your settings.</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-white mt-4 mb-2">9.6 Accuracy of Data</h3>
+            <li className="text-xl font-semibold text-white mt-4 mb-2">9.6 Accuracy of Data</li>
             <ul className=" pl-5 space-y-2 text-white">
               <li>You are responsible for providing accurate information. LynkUp is not liable for issues arising from inaccurate data.</li>
             </ul>

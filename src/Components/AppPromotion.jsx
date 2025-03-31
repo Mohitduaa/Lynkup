@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 const AppPromotion = () => {
   return (
-    <section name="Download">
+    <section id="Download">
       <div className="py-16 px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-evenly ">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
