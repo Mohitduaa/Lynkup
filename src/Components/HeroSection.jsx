@@ -41,7 +41,7 @@ const HeroSection = () => {
           transition={{ duration: 1.5, ease: "easeOut" }}
           className="h-[300px] w-full bg-cover"
           style={{
-            backgroundImage: `url('images/mobilebackground.png')`,
+            backgroundImage: `url('images/mobilebackground.webp')`,
             backgroundSize: "cover",
           }}
         />
@@ -70,7 +70,7 @@ const HeroSection = () => {
           transition={{ duration: 1.5, ease: "easeOut" }}
           className="w-[70%] flex justify-end items-end"
         >
-          <img className="w-full" src="images/mobilebackground.png" alt="" />
+          <img className="w-full" src="images/mobilebackground.webp" alt="" />
         </motion.div>
       </div>
     </div>

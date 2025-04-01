@@ -64,7 +64,7 @@ const Appfeatures = () => {
               We believe that the best way to create successful marketing campaigns is to work closely with our clients to understand their goals and challenges.
             </p>
             <motion.img
-              src="/images/pannel.png"
+              src="/images/pannel.webp"
               alt="Card"
               className="w-full max-w-lg object-contain"
               initial={{ opacity: 0, x: -30 }}

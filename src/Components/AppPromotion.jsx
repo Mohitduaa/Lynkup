@@ -57,7 +57,7 @@ const AppPromotion = () => {
         >
           <div>
             <img
-              src="images/mobilenew1.png"
+              src="images/mobilenew1.webp"
               alt="App Mockup 2"
               className="md:w-full md:h-[600px]"
             />
