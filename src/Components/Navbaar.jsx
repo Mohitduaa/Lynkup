@@ -64,8 +64,8 @@ const Navbaar = () => {
         <NavLink to="/" >         
          <div>
             <img
-              className="w-full "
-              src="images/logo1.svg"
+              className="w-full h-[60px] "
+              src="images/Lynkup logo-01.svg"
               alt="Logo"
             />
           </div>

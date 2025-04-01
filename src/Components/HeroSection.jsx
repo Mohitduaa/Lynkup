@@ -3,30 +3,30 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <div className="w-full relative overflow-hidden max-lg:pt-[80px]">
-      {/* For Mobile & Tablet (Same Image) */}
+<div className="w-full relative overflow-hidden max-lg:pt-[80px]">
+{/* For Mobile & Tablet (Same Image) */}
       <div className="block lg:hidden">
         {/* Text Part */}
         <div className="relative flex justify-center items-center ">
           <motion.div
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.5, ease: "easeOut" }}
+            transition={{ duration: 2, ease: "easeOut" }}
             className="text-center text-[#FDFDFD]"
           >
             <motion.h1
-              initial={{ opacity: 0, y: 50 }}
+              initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1.5, delay: 0.3, ease: "easeOut" }}
+              transition={{ duration: 2, delay: 0.3, ease: "easeOut" }}
               className="text-2xl font-bold font-quicksand mb-4"
             >
               Turn content into customers
             </motion.h1>
 
             <motion.p
-              initial={{ opacity: 0, y: 50 }}
+              initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1.5, delay: 0.6, ease: "easeOut" }}
+              transition={{ duration: 2, delay: 0.6, ease: "easeOut" }}
               className="font-Lexend text-[14px] font-extralight mb-2 max-w-[90%] mx-auto"
             >
               A platform where creator marketing is accessible, seamless, and mutually beneficial for creators and restaurants alike.
@@ -36,9 +36,9 @@ const HeroSection = () => {
 
         {/* Image Part */}
         <motion.div
-          initial={{ scale: 1.2, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 1.5, ease: "easeOut" }}
+          initial={{ scale: 1.2 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 3, ease: "easeOut" }}
           className="h-[300px] w-full bg-cover"
           style={{
             backgroundImage: `url('images/mobilebackground.webp')`,
@@ -48,30 +48,46 @@ const HeroSection = () => {
       </div>
 
       {/* For Desktop (Different Image) */}
-      <div className="hidden lg:flex justify-center items-center ">
+      <div className="hidden lg:block h-[650px] lg:h-[800px] relative">
+        {/* Background Image */}
         <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.5, ease: "easeOut" }}
-          className="text-left px-6 text-[#FDFDFD]"
-        >
-          <h1 className="text-4xl lg:text-[1.8rem] font-bold font-quicksand mb-4">
-            Turn content into customers
-          </h1>
+          initial={{ scale: 1.2 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 3, ease: "easeOut" }}
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `url('images/lynkuphero.webp')`,
+            backgroundSize: "cover",
+          }}
+        />
 
-          <p className="font-Lexend text-xl font-extralight mb-2 lg:max-w-[400px]">
-            A platform where creator marketing is accessible, seamless, and mutually beneficial for creators and restaurants alike.
-          </p>
-        </motion.div>
+        {/* Content */}
+        <div className="relative flex justify-start items-center h-full px-12">
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2, ease: "easeOut" }}
+            className="text-left text-[#FDFDFD]"
+          >
+            <motion.h1
+              initial={{ opacity: 0, y: 100 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 2, delay: 0.3, ease: "easeOut" }}
+              className="text-4xl lg:text-[2.1rem] font-bold font-quicksand mb-4"
+            >
+              Turn content into customers
+            </motion.h1>
 
-        <motion.div
-          initial={{ scale: 1.2, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 1.5, ease: "easeOut" }}
-          className="w-[70%] flex justify-end items-end"
-        >
-          <img className="w-full" src="images/mobilebackground.webp" alt="" />
-        </motion.div>
+            <motion.p
+              initial={{ opacity: 0, y: 100 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 2, delay: 0.6, ease: "easeOut" }}
+              className="font-Lexend text-xl font-extralight mb-2 max-w-[500px]"
+            >
+              A platform where creator marketing is accessible, seamless, and mutually beneficial for creators and restaurants alike.
+            </motion.p>
+          </motion.div>
+        </div>
       </div>
     </div>
   );
