@@ -100,7 +100,7 @@ const AppPromotion = () => {
             <img
               src="images/mobilenew1.webp"
               alt="App Mockup 2"
-              className="w-full max-w-xs md:max-w-md h-auto object-contain"
+              className="md:w-full md:h-[600px] object-contain"
               style={{
                 transform: 'translateZ(0)' // Force GPU acceleration
               }}
