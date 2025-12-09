@@ -125,7 +125,7 @@ const AppPromotion = () => {
                     textShadow: '0 1px 3px rgba(0,0,0,0.5)' // Better text visibility
                   }}
                 >
-                  100% free for creators and restaurants
+                  100% free for creators 
                 </h1>
               </div>
             </motion.div>

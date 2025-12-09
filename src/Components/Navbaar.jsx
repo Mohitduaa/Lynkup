@@ -45,7 +45,7 @@ const Navbaar = () => {
         });
       }
     } else {
-      navigate("/?scrollTo=Creators"); // Fixed: Was scrolling to Features instead of Creators
+      navigate("/?scrollTo=Creators"); 
     }
   };
 
@@ -59,7 +59,7 @@ const Navbaar = () => {
         });
       }
     } else {
-      navigate("/?scrollTo=Download"); // Fixed: Was scrolling to Features instead of Download
+      navigate("/?scrollTo=Download"); 
     }
   };
   
@@ -72,7 +72,7 @@ const Navbaar = () => {
       setIsScrolled(window.scrollY > 50);
     };
 
-    window.addEventListener("scroll", handleScroll, { passive: true }); // Added passive for better performance
+    window.addEventListener("scroll", handleScroll, { passive: true }); 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -82,19 +82,19 @@ const Navbaar = () => {
         isScrolled ? "bg-[#fdfdfde7] shadow-md" : "bg-[#fdfdfdd3]"
       }`}
       style={{
-        backdropFilter: 'blur(10px)', // Added for better background effect
-        WebkitBackdropFilter: 'blur(10px)' // Safari specific
+        backdropFilter: 'blur(10px)', 
+        WebkitBackdropFilter: 'blur(10px)' 
       }}
     >
       <div className="flex justify-between items-center px-4 md:px-6 lg:px-20 py-1 bg-[#fdfdfd9a]">
         <NavLink to="/">
-          <div>
+          <div className="h-[64px] flex items-center pt-2  ">
             <img
-              className="w-auto h-[60px]" // Changed from w-full to w-auto for Safari
-              src="images/Lynkup logo-01.svg"
+              className="w-auto h-[116px]" 
+              src="images/Lynk-Up-black.png"
               alt="Logo"
               style={{
-                maxWidth: 'none' // Prevent Safari from resizing
+                maxWidth: 'none' 
               }}
             />
           </div>
@@ -171,7 +171,7 @@ const Navbaar = () => {
         <div 
           className="lg:hidden bg-[#100E19] text-white shadow-md"
           style={{
-            WebkitOverflowScrolling: 'touch' // Smooth scrolling for iOS
+            WebkitOverflowScrolling: 'touch' 
           }}
         >
           <ul className="flex flex-col gap-3 px-4 py-4">
