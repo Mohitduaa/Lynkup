@@ -162,7 +162,7 @@ const PrivacyAndCookies = () => {
             <ul className="list-disc pl-5 space-y-2 text-white">
             <li className="text-xl font-semibold text-white mt-4 mb-2">12.1 Responsibility for Restaurant and Cloud Kitchen Selection</li>
             </ul>
-            <h2>LynkUp provides a platform for users to discover and engage with brands , restaurants and cloud kitchens. However, we are <strong> not responsible </strong> for the businesses you choose to interact with. Any issues, disputes, or concerns that arise between you and a brand , restaurant or cloud kitchen are <strong> solely between you and the respective establishment.</strong> LynkUp holds <strong> no liability </strong> for their actions, policies, or services.</h2>
+            <h2>LynkUp provides a platform for users to discover and engage with brands, restaurants and cloud kitchens. However, we are <strong> not responsible </strong> for the businesses you choose to interact with. Any issues, disputes, or concerns that arise between you and a brand, restaurant or cloud kitchen are <strong> solely between you and the respective establishment.</strong> LynkUp holds <strong> no liability </strong> for their actions, policies, or services.</h2>
 
             <ul className="list-disc pl-5 space-y-2 text-white">
             <li className="text-xl font-semibold text-white mt-4 mb-2">12.2 Food Quality and Health Concerns</li>
