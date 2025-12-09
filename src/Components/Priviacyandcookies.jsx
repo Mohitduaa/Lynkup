@@ -167,7 +167,7 @@ const PrivacyAndCookies = () => {
             <ul className="list-disc pl-5 space-y-2 text-white">
             <li className="text-xl font-semibold text-white mt-4 mb-2">12.2 Food Quality and Health Concerns</li>
             </ul>
-              <h2>LynkUp <strong> does not guarantee </strong> the quality, safety, or hygiene standards of the food provided by restaurants and cloud kitchens listed on our App. If you experience any adverse health effects, foodborne illnesses, or dissatisfaction with food quality, the responsibility lies <strong>solely with the brand , restaurant or cloud kitchen.</strong> LynkUp is <strong> not accountable </strong> for any health-related concerns or damages resulting from consuming food obtained through our platform.</h2>
+              <h2>LynkUp <strong> does not guarantee </strong> the quality, safety, or hygiene standards of the food provided by restaurants and cloud kitchens listed on our App. If you experience any adverse health effects, foodborne illnesses, or dissatisfaction with food quality, the responsibility lies <strong>solely with the brand, restaurant or cloud kitchen.</strong> LynkUp is <strong> not accountable </strong> for any health-related concerns or damages resulting from consuming food obtained through our platform.</h2>
           </section>
 
           <section>
